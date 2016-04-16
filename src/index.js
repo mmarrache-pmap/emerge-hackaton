@@ -11,6 +11,12 @@ import App from './app';
 // Stylesheets.
 import './styles/sass/andromeda/andromeda.scss';
 
+// Redux actions.
+// import { fetchPropublica } from './redux/actions/propublica-actions';
+
+// Default api calls.
+// store.dispatch(fetchPropublica(''));
+
 // Needed for onTouchTap - Can go away when react 1.0 release
 // Check this repo: https://github.com/zilverline/react-tap-event-plugin
 injectTapEventPlugin();

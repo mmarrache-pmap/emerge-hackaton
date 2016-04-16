@@ -3,6 +3,8 @@ import Main from '../layouts/main';
 
 import utils from '../utils';
 
+import { propublicaData } from '../static/propublicaData';
+
 
 class DonorPage extends React.Component {
   constructor(props) {
@@ -12,11 +14,9 @@ class DonorPage extends React.Component {
     utils.title(props);
   }
 
-  onTreeViewClick(node) {
-    console.log(node.name, node.selected);
-  }
-
   render() {
+    console.log(propublicaData);
+
     return (
       <Main>
         <h1>Donor Page</h1>
