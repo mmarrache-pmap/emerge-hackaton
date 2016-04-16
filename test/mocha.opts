@@ -1,0 +1,2 @@
+--compilers png:mocha-image-compiler
+--require test/compiler.js
