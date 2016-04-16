@@ -1,11 +1,7 @@
 // Dependencies.
 import React from 'react';
 
-
-// Define class.
 class Loader extends React.Component {
-
-  // Render method.
   render() {
     const { theme, padding, size } = this.props;
 
@@ -45,7 +41,6 @@ class Loader extends React.Component {
   }
 }
 
-// Validation.
 Loader.propTypes = {
   padding: React.PropTypes.oneOfType([
     React.PropTypes.string,
@@ -64,5 +59,4 @@ Loader.defaultProps = {
   theme: 'light',
 };
 
-// Export.
 export default Loader;

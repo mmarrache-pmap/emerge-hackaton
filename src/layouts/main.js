@@ -14,10 +14,8 @@ class Layout extends React.Component {
   }
 }
 
-// Validation.
 Layout.propTypes = {
   children: React.PropTypes.node,
 };
 
-// Export.
 export default Layout;

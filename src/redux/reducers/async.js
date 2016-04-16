@@ -2,10 +2,10 @@ import {
   ASYNC_FETCH_REQUEST,
   ASYNC_FETCH_SUCCESS,
   ASYNC_FETCH_FAILURE
-} from '../constants/tenant-constants';
+} from '../constants/async-constants';
 
-function dmTenantReducer(state = {
-  isFetching: false,
+function asyncReducer(state = {
+  isFetching: true,
   didInvalidate: false,
   items: []
 }, action) {
@@ -35,5 +35,4 @@ function dmTenantReducer(state = {
   }
 }
 
-
-export default dmTenantReducer;
+export default asyncReducer;

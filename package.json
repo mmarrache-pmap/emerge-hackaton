@@ -1,5 +1,5 @@
 {
-  "name": "eMerge Hackathon",
+  "name": "emerge-hackathon",
   "version": "1.0.0",
   "author": "cwalker@processmap.com, mmarrache@processmap.com",
   "description": "eMerge Hackathon project",
@@ -17,7 +17,7 @@
     "git-update": "git update-index --again"
   },
   "precommit": {
-    "run": "git-update, lint, test",
+    "run": "git-update",
     "silent": true
   },
   "dependencies": {
@@ -51,6 +51,8 @@
     "exports-loader": "^0.6.2",
     "express": "^4.13.4",
     "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "filepicker-js": "^2.3.6",
     "firebase": "^2.4.0",
     "fs-extra": "^0.24.0",
     "glob": "^5.0.15",

@@ -1,10 +1,11 @@
 import React from 'react';
 import Main from '../layouts/main';
 
-// Define class.
-class Home extends React.Component {
+import utils from '../utils';
+
+
+class DonorPage extends React.Component {
   constructor(props) {
-    // Pass `props` into scope.
     super(props);
 
     // Set page title.
@@ -15,7 +16,6 @@ class Home extends React.Component {
     console.log(node.name, node.selected);
   }
 
-  // Render method.
   render() {
     return (
       <Main>
@@ -25,5 +25,4 @@ class Home extends React.Component {
   }
 }
 
-// Export.
-export default Home;
+export default DonorPage;

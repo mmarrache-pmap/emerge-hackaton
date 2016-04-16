@@ -1,8 +1,7 @@
-// Dependencies.
 import React from 'react';
 import Icon from 'react-fa';
 
-// Define class.
+
 class Avatar extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -173,7 +172,6 @@ class Avatar extends React.Component {
   }
 }
 
-// Validation.
 Avatar.propTypes = {
   status: React.PropTypes.string,
   shape: React.PropTypes.string,
@@ -196,5 +194,4 @@ Avatar.defaultProps = {
   random: true,
 };
 
-// Export.
 export default Avatar;

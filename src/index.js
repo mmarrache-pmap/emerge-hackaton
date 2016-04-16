@@ -1,13 +1,10 @@
-// Dependencies.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from 'react-router';
-// import createBrowserHistory from 'history/lib/createBrowserHistory';
 import { Provider } from 'react-redux';
 import { store, history } from './redux/store';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-// Local Dependencies.
 import Routes from './routes';
 import App from './app';
 
@@ -29,7 +26,5 @@ const template = (
   </Provider>
 );
 
-// Insertion point.
 const el = document.getElementById('app');
-
 ReactDOM.render(template, el);

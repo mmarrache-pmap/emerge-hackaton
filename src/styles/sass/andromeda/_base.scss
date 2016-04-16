@@ -11,14 +11,7 @@ body{
   font-size: $font-size;
   color: $text-color;
   overflow-x: hidden;
-  padding-top: 100px;
   background-color: $body-bg;
-}
-
-@media(max-width: 767px){
-  body{
-    padding-top: 60px;
-  }
 }
 
 html,body{

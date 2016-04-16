@@ -1,9 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
-// Define class.
 class App extends React.Component {
-  // Render method.
   render() {
     return (
 			<div>
@@ -19,10 +17,8 @@ class App extends React.Component {
   }
 }
 
-// Validation.
 App.propTypes = {
   children: React.PropTypes.node
 };
 
-// Export.
 export default App;
