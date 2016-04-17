@@ -40,13 +40,13 @@ class DetailPage extends React.Component {
     let rightPanel;
     switch (paramView) {
     case 'checkout':
-      rightPanel = <CheckoutView id={paramId} />;
+      rightPanel = <CheckoutView id={id} />;
       break;
     case 'login':
-      rightPanel = <LoginView id={paramId} />;
+      rightPanel = <LoginView id={id} />;
       break;
     default:
-      rightPanel = <DetailView id={paramId} />;
+      rightPanel = <DetailView id={id} />;
     }
 
     return (

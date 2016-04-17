@@ -256,7 +256,7 @@ mark{
 
 .hero {
   position: relative;
-  margin: -136px -15px 0;
+  margin: 0 -15px 0;
   min-height: 600px;
   border-bottom: 10px solid $link-color;
   -webkit-transition: $transition;
@@ -268,6 +268,7 @@ mark{
     color: #000000;
     font-weight: 900;
     padding: 140px 0 0 40px;
+    margin-top: -2px;
     overflow: hidden;
 
     &.overlay{
@@ -379,12 +380,12 @@ mark{
 }
 
 .content-about {
+  font-size: 14px;
+  line-height: 1.4;
+
   h1 {
     font-weight: 400;
     color: $link-color;
-  }
-  p {
-    line-height: 26pt;
   }
 }
 

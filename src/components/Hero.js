@@ -13,7 +13,7 @@ class Hero extends React.Component {
 
     return (
       <div className="hero" style={styles.base}>
-        {type === "video" ?
+        {type === "video" && !title ?
           <h1>Video</h1>
         :
           <h1 className={`hero-title ${overlay ? 'overlay' : ''}`}>{title}</h1>
