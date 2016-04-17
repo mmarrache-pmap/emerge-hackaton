@@ -13,10 +13,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/sass/styles.scss';
 
 // Redux actions.
-import { fetchPropublica } from './redux/actions/propublica-actions';
+// import { fetchPropublica } from './redux/actions/propublica-actions';
 
 // Default api calls.
-store.dispatch(fetchPropublica('hope'));
+// store.dispatch(fetchPropublica('hope'));
 
 injectTapEventPlugin();
 

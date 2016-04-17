@@ -1,5 +1,6 @@
 import React from 'react';
 // import {connect} from 'react-redux';
+import { Link } from 'react-router';
 
 import utils from '../utils';
 
@@ -10,9 +11,9 @@ class DonorGridBox extends React.Component {
     const orgList = data.map( (item, index) => {
       return (
         <li key={utils.unique()} className="masonry-box">
-          <a href={`/detail/${data.ein}`} className="masonry-box-image-link">
+          <Link to={`/detail/${item.id}`} className="masonry-box-image-link">
             <img src={`/static/images/organizations/${item.organization.photo}`} className="img-responsive" />
-          </a>
+          </Link>
           <div className="ribbon-circle masonry-box-total">
             <span>{item.organization.price || '25'}</span>
           </div>
@@ -25,9 +26,9 @@ class DonorGridBox extends React.Component {
                 EIN: {item.ein}
               </div>
             </div>
-            <a href={`/detail/${item.ein}`} className="masonry-box-title">
+            <Link to={`/detail/${item.id}`} className="masonry-box-title">
               {item.organization.name}
-            </a>
+            </Link>
 
             {/*
             <div className="text-center">

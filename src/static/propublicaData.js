@@ -2,6 +2,7 @@ export const propublicaData = {
   "total_results": 6872,
   "filings": [
     {
+      "id": 1,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 2,
@@ -162,10 +163,43 @@ export const propublicaData = {
         "asset_amount": 1,
         "income_amount": 1,
         "revenue_amount": null,
-        "ntee_code": "T22"
+        "ntee_code": "T22",
+        "products": [
+          {
+            "item": "Lysol Disinfectant Wipes Value Pack, 300-Count",
+            "quantity": 1,
+            "price": 11,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5453/k2-_66224203-cb83-4751-a9f5-49b8760fd52d.v1.jpg"
+          },
+          {
+            "item": "Large Trash Bags, 30 Gallon, 60-count",
+            "quantity": 3,
+            "price": 13,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-7d8b/k2-_fe707bee-c09e-4da6-a94d-c870318526e6.v1.jpg-d41573f1804d73172733e925798b8c2bf7f974e8-webp-450x450.webp"
+          },
+          {
+            "item": "Assorted Plastic Cutlery, 288-Count",
+            "quantity": 3,
+            "price": 7,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-8f3e/k2-_3d9f3f8b-114c-4401-824d-be375d749536.v1.jpg"
+          },
+          {
+            "item": "Bulk Buys, Shampoo & Body Bath, 96-count",
+            "quantity": 1,
+            "price": 51,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c9a6/k2-_c1ea30b2-3336-40a1-ab45-c5bf7afb3943.v2.jpg"
+          },
+          {
+            "item": "Bath Towels",
+            "quantity": 50,
+            "price": 2,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1c46/k2-_6986c2c7-644b-46e1-90a8-8b52dfb1f9fc.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 2,
       "tax_prd": 201212,
       "tax_prd_yr": 2012,
       "formtype": 2,
@@ -326,10 +360,49 @@ export const propublicaData = {
         "asset_amount": 1,
         "income_amount": 1,
         "revenue_amount": null,
-        "ntee_code": "T22"
+        "ntee_code": "T22",
+        "products": [
+           {
+            "item": "Men's Edge Sensitive Skin Shave Gel, 7 oz, 2-count",
+            "quantity": 5,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-dbce/k2-_95cafd77-7ebe-486a-868e-4f9d1fb5c292.v1.jpg-9e1e070502d7f2c19ab2e753598707d776f3ee3c-webp-450x450.webp"
+          },
+        {
+            "item": "Men's Disposable Razors, 8 count",
+            "quantity": 3,
+            "price": 6,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-935a/k2-_87124d31-839d-4ae4-8ba9-6331ec5b1fe3.v1.jpg-6a9d5735f883268ce4cbd1319b5504a330088ae7-webp-450x450.webp"
+          },
+        {
+            "item": "Long Grain Rice, 20 lb.",
+            "quantity": 2,
+            "price": 9,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-b7ca/k2-_1d24bcbd-2463-45d9-a416-e21f208efc80.v1.jpg-5313d05eb78f61ccb192024ff626a0964604b3a8-webp-450x450.webp"
+        },
+        {
+            "item": "Aroma 20-Cup Rice Cooker, Stainless Steel",
+            "quantity": 1,
+            "price": 37,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-237a/k2-_1188de54-1be7-4007-a52d-63788c20dbb5.v1.jpg-3e5fd41d28b4fe90cd0884c5ef0070657b37afef-webp-450x450.webp"
+        },
+        {
+            "item": "Farberware Manual Can Opener",
+            "quantity": 1,
+            "price": 7,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-8af6/k2-_c54fe707-4429-4041-ba35-1bb79833f6ee.v1.jpg-3601930378d85ad671f7b22607fc23ff4dc83ccb-webp-450x450.webp"
+        },
+        {
+            "item": "Canned Sweet Corn, 15 oz, 4-count",
+            "quantity": 10,
+            "price": 2.75,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-4c68/k2-_36a854b7-64b3-4022-adb0-2f2381af1458.v1.jpg-d11cf7d972acc137d1ba56e8cad69e8fe1bcc407-webp-450x450.webp"
+        }
+        ]
       }
     },
     {
+      "id": 3,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 0,
@@ -432,10 +505,55 @@ export const propublicaData = {
         "asset_amount": 98038,
         "income_amount": 395375,
         "revenue_amount": 395375,
-        "ntee_code": "S20"
+        "ntee_code": "S20",
+        "products": [
+                  {
+              "item": "Lysol Bathroom Cleaner Spray",
+              "quantity": 2,
+              "price": 3.15,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-995c/k2-_4f715541-1a1f-485a-a5a9-53fcb667b759.v1.jpg-32258536fd3c42464676b512f7bf46e7e09e5848-webp-450x450.webp"
+          },
+              {
+              "item": "Capri Sun Fruit Punch Juice Pouches, 30-count",
+              "quantity": 2,
+              "price": 6.5,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-b2a7/k2-_3bcdf0cc-1dec-472a-bf3a-ff49f4313109.v1.jpg"
+          },
+          {
+              "item": "Great Value Chewy Granola Bars Variety Pack, 24-count",
+              "quantity": 4,
+              "price": 4,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-e404/k2-_e9db7f15-8f64-4e29-bc93-9f98d5e89a76.v1.jpg-d825edf9bccc081c072def29c1b3168752742ef7-webp-450x450.webp"
+          },
+              {
+              "item": "Paper Coffee Cups, 500-count",
+              "quantity": 1,
+              "price": 58,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-be3e/k2-_f640add6-8aa3-4fd3-9398-3b6790d21219.v1.jpg"
+          },
+          {
+              "item": "Mr. Coffee 12-cup coffee maker",
+              "quantity": 1,
+              "price": 16,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-1d20/k2-_d11c638c-8514-456b-b384-bd2ae20ab5f5.v1.jpg-8663746d666127b6e4d2a2564cca23c13e4898c3-webp-450x450.webp"
+          },
+          {
+              "item": "Splenda Sweetener Packets, 400-count",
+              "quantity": 2,
+              "price": 13,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-6284/k2-_12ce4ac4-67e4-422b-b873-d67f3eb72e8a.v1.jpg-7f54feec45caf9572a93bc4dd201a196240300c8-webp-450x450.webp"
+          },
+          {
+              "item": "Maxwell House French Roast Medium Dark Ground Coffee, 29.3 oz",
+              "quantity": 4,
+              "price": 7,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-ddd3/k2-_48e183be-a831-429f-a969-3db9c2c13667.v1.jpg-5945c43d10429e7566b6b7a3e54c50252824b9dc-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 4,
       "tax_prd": 201212,
       "tax_prd_yr": 2012,
       "formtype": 1,
@@ -517,10 +635,43 @@ export const propublicaData = {
         "asset_amount": 146426,
         "income_amount": 32,
         "revenue_amount": 32,
-        "ntee_code": "S47"
+        "ntee_code": "S47",
+        "products": [
+            {
+            "item": "Campbell's Tomato Soup, 4-pack",
+            "quantity": 7,
+            "price": 3.85,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-31dd/k2-_9c889dea-0e8d-4aca-b6ba-168a5aa2735a.v2.jpg-690cadd1cfe5c15f2b3edc716d46612ca5dfe9c8-webp-450x450.webp"
+          },
+            {
+            "item": "Kraft Easy Macaroni and Cheese, 4-count",
+            "quantity": 9,
+            "price": 3.5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5d33/k2-_5da872ff-aa1a-420c-9fc3-cee94830677c.v1.jpg"
+          },
+           {
+            "item": "Paper Bowls, 10 oz. 35-count",
+            "quantity": 3,
+            "price": 2.75,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-45c3/k2-_4d30d077-3d23-4cf9-889c-5047bd09d4d2.v1.jpg-c0fbf91e93cd320b2b53f9bd0f9adc5be948fe9d-webp-450x450.webp"
+          },
+            {
+          "item": "Assorted Plastic Cutlery, 288-Count",
+          "quantity": 3,
+          "price": 7,
+          "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-8f3e/k2-_3d9f3f8b-114c-4401-824d-be375d749536.v1.jpg"
+            },
+            {
+          "item": "First Aid Kit for 50 people, 195-pc",
+          "quantity": 5,
+          "price": 25.5,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-d36f/k2-_fa696e26-edb8-4b55-9802-0394a4a59e69.v1.jpg-55ea071dc94b5930ecfe1ea9c53b61b0a4a4d89e-webp-450x450.webp"
+          }
+      ]
       }
     },
     {
+      "id": 5,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -602,10 +753,31 @@ export const propublicaData = {
         "asset_amount": 146426,
         "income_amount": 32,
         "revenue_amount": 32,
-        "ntee_code": "S47"
+        "ntee_code": "S47",
+        "products": [
+          {
+              "item": "Bounty Paper Towel Mega Rolls, 12-count",
+              "quantity": 3,
+              "price": 16.75,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-6697/k2-_c09a9761-8f75-4950-b7a5-9c46ecf6a09f.v1.jpg"
+          },
+          {
+              "item": "Aquafina Bottled Water, 32 pack",
+              "quantity": 5,
+              "price": 13,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-89a8/k2-_14762de6-c209-4959-99ee-039008df26c9.v1.jpg"
+          },
+          {
+              "item": "Large Trash Bags, 30 Gallon, 60-count",
+              "quantity": 3,
+              "price": 13,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-7d8b/k2-_fe707bee-c09e-4da6-a94d-c870318526e6.v1.jpg-d41573f1804d73172733e925798b8c2bf7f974e8-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 6,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 0,
@@ -708,10 +880,37 @@ export const propublicaData = {
         "asset_amount": 1,
         "income_amount": 14311,
         "revenue_amount": 14311,
-        "ntee_code": "X20"
+        "ntee_code": "X20",
+        "products": [
+          {
+            "item": "Microfiber Pillow, 2 Pack",
+            "quantity": 5,
+            "price": 7,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-7748/k2-_f6c8c9bf-45c1-4e99-a068-494a0f9b3677.v1.jpg-eaeec1a53b2cc07a4c8f2d32da10115f1c9a5a6f-webp-450x450.webp"
+          },
+          {
+            "item": "Adult Sleeping Bag",
+            "quantity": 10,
+            "price": 24,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5b8e/k2-_9bf5ae57-71d7-4632-a9c8-b0b13679f65d.v1.jpg"
+          },
+          {
+            "item": "Pampers Diapers, Any Size, 140-ct.",
+            "quantity": 4,
+            "price": 38,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-15eb/k2-_e3ede8af-d62e-42be-97af-2c14dd80bb90.v3.jpg"
+          },
+          {
+            "item": "Blankets",
+            "quantity": 50,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-3402/k2-_97dc62f6-1e14-49b2-816d-80de8da771c5.v2.jpg-cb7b3a2fe55d1cd183bbfc437cc1602ef27f1bd3-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 7,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -793,10 +992,37 @@ export const propublicaData = {
         "asset_amount": 91396,
         "income_amount": 102039,
         "revenue_amount": 102039,
-        "ntee_code": "A20"
+        "ntee_code": "A20",
+        "products": [
+          {
+            "item": "Heavy-Duty Paper Plates, 100-count",
+            "quantity": 5,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-a3e2/k2-_09891553-fcbc-4e87-9dc7-c27fa4f638f9.v1.jpg-69ee65a454dda6ac17f6440eb0df19db871aea51-webp-450x450.webp"
+          },
+          {
+            "item": "Clear cups, 16 fl oz, 100-count",
+            "quantity": 5,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c58b/k2-_05ad2439-1ca5-4dc1-859b-24b601f7755f.v1.jpg-73d19bb1a3191b5a316b0f7360977510c9cac444-webp-450x450.webp"
+          },
+          {
+            "item": "Napkins, 600-count",
+            "quantity": 2,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-a510/k2-_a89ec10e-df11-4c9e-81d8-998d0f529047.v1.jpg-696fb252bb97ef67bf9ca42708181aa8ef9f838f-webp-450x450.webp"
+          },
+          {
+            "item": "Paper Bowls, 10 oz. 35-count",
+            "quantity": 3,
+            "price": 2.75,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-45c3/k2-_4d30d077-3d23-4cf9-889c-5047bd09d4d2.v1.jpg-c0fbf91e93cd320b2b53f9bd0f9adc5be948fe9d-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 8,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 0,
@@ -899,10 +1125,37 @@ export const propublicaData = {
         "asset_amount": 46124,
         "income_amount": 85987,
         "revenue_amount": 85987,
-        "ntee_code": "X20"
+        "ntee_code": "X20",
+        "products": [
+          {
+            "item": "Flip-Top Water Bottle",
+            "quantity": 15,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-657d/k2-_23a495f9-228d-4dbb-bcc8-2338ac99a272.v1.jpg"
+          },
+          {
+            "item": "Adult Sleeping Bag",
+            "quantity": 10,
+            "price": 24,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5b8e/k2-_9bf5ae57-71d7-4632-a9c8-b0b13679f65d.v1.jpg"
+          },
+           {
+            "item": "LED Aluminum Flashlight",
+            "quantity": 2,
+            "price": 9.99,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1f18/k2-_279cb7a1-c380-4f1e-9b88-4f16a460135a.v1.jpg"
+          },
+          {
+            "item": "Gatorade Fruit Punch Mix, 8 packets",
+            "quantity": 4,
+            "price": 5.75,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5c95/k2-_fb0b312b-203f-4e6b-94c0-ff2e81da9287.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 9,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 0,
@@ -1005,10 +1258,43 @@ export const propublicaData = {
         "asset_amount": 673633,
         "income_amount": 626106,
         "revenue_amount": 626106,
-        "ntee_code": "X21"
+        "ntee_code": "X21",
+        "products": [
+          {
+              "item": "Mr. Clean Magic Erasers, 8-count",
+              "quantity": 3,
+              "price": 7,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-8a17/k2-_5a1bbca1-22d2-41d4-9146-0066bd703ccc.v1.jpg-e408d35fe707f02a2a35d943ea07f5aa9fe677df-webp-450x450.webp"
+          },
+          {
+            "item": "Disposable Vinyl Gloves, 100 ct.",
+            "quantity": 2,
+            "price": 7,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-3829/k2-_cc776afd-3a1d-401e-9e6a-94e6f2442f9c.v1.jpg"
+          },
+          {
+              "item": "Bulk Buys Toothbrush Set, 36-pack",
+              "quantity": 4,
+              "price": 38,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-89ad/k2-_33c4ac4e-3c36-4347-85cc-1bf107e2c121.v1.jpg"
+          },
+          {
+              "item": "Bulk Buys Toothpaste, Clear Gel, Case of 144",
+              "quantity": 1,
+              "price": 101,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-d46b/k2-_21361b2d-9f45-4efc-8c2c-4ca40bf32335.v2.jpg"
+          },
+          {
+              "item": "Mens Socks, 12-Pack",
+              "quantity": 5,
+              "price": 10,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-18ab/k2-_769fa127-625d-4e17-8e3c-855804a055fa.v4.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 10,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 0,
@@ -1111,10 +1397,25 @@ export const propublicaData = {
         "asset_amount": 673633,
         "income_amount": 626106,
         "revenue_amount": 626106,
-        "ntee_code": "X21"
+        "ntee_code": "X21",
+        "products": [
+         {
+          "item": "First Aid Kit for 50 people, 195-pc",
+          "quantity": 5,
+          "price": 25.5,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-d36f/k2-_fa696e26-edb8-4b55-9802-0394a4a59e69.v1.jpg-55ea071dc94b5930ecfe1ea9c53b61b0a4a4d89e-webp-450x450.webp"
+        },
+        {
+          "item": "Aquafina Bottled Water, 32 pack",
+          "quantity": 5,
+          "price": 13,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-89a8/k2-_14762de6-c209-4959-99ee-039008df26c9.v1.jpg"
+        }
+        ]
       }
     },
     {
+      "id": 11,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -1196,10 +1497,43 @@ export const propublicaData = {
         "asset_amount": 43344,
         "income_amount": 92506,
         "revenue_amount": 84525,
-        "ntee_code": "X20"
+        "ntee_code": "X20",
+        "products": [
+          {
+          "item": "Dial Antibacterial Soap, 10 count",
+          "quantity": 2,
+          "price": 4.5,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-2859/k2-_3521ba68-7a28-477c-ab65-a35339069188.v1.jpg"
+         },
+         {
+          "item": "18-Pack White Washcloths",
+          "quantity": 2,
+          "price": 3.5,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-ef4d/k2-_97e4584a-81ee-4011-ba8b-c5086eb0789b.v2.jpg-753d0bcb198d3ba7e42f4b6e2d9de27a0e38e067-webp-450x450.webp"
+          },
+          {
+          "item": "Aloe Vera Hand Soap Refill, 56 fl oz.",
+          "quantity": 2,
+          "price": 4,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-fa9a/k2-_8178068d-a052-46d2-8f2a-fdfdb40a8105.v1.jpg-c1769bccfbd4833142c6240fb222b034932e5efb-webp-450x450.webp"
+          },
+          {
+          "item": "Basic Toilet Paper Double Rolls, 24-count",
+          "quantity": 5,
+          "price": 10,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-9ef4/k2-_426c65e1-011e-4e24-8eb5-6da87d2b10ea.v1.jpg-51528ec6fab1e89c7c8d4f941f0bf97d4b64cf7e-webp-450x450.webp"
+          },
+          {
+          "item": "Men's Disposable Razors, 8 count",
+          "quantity": 3,
+          "price": 6,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-935a/k2-_87124d31-839d-4ae4-8ba9-6331ec5b1fe3.v1.jpg-6a9d5735f883268ce4cbd1319b5504a330088ae7-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 12,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 0,
@@ -1302,10 +1636,37 @@ export const propublicaData = {
         "asset_amount": 47250,
         "income_amount": 578313,
         "revenue_amount": 578313,
-        "ntee_code": "P20"
+        "ntee_code": "P20",
+        "products": [
+          {
+            "item": "Lysol Bathroom Cleaner Spray",
+            "quantity": 2,
+            "price": 3.15,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-995c/k2-_4f715541-1a1f-485a-a5a9-53fcb667b759.v1.jpg-32258536fd3c42464676b512f7bf46e7e09e5848-webp-450x450.webp"
+          },
+          {
+          "item": "Clorox Regular Bleach, 121 fl. oz",
+          "quantity": 1,
+          "price": 4,
+          "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1a8a/k2-_d78ecd66-0695-49de-ba43-96b1cf8e71d3.v1.jpg"
+          },
+          {
+            "item": "Aloe Vera Hand Soap Refill, 56 fl oz.",
+            "quantity": 2,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-fa9a/k2-_8178068d-a052-46d2-8f2a-fdfdb40a8105.v1.jpg-c1769bccfbd4833142c6240fb222b034932e5efb-webp-450x450.webp"
+          },
+          {
+            "item": "Basic Toilet Paper Double Rolls, 24-count",
+            "quantity": 5,
+            "price": 10,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-9ef4/k2-_426c65e1-011e-4e24-8eb5-6da87d2b10ea.v1.jpg-51528ec6fab1e89c7c8d4f941f0bf97d4b64cf7e-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 13,
       "tax_prd": 201206,
       "tax_prd_yr": 2012,
       "formtype": 1,
@@ -1387,10 +1748,37 @@ export const propublicaData = {
         "asset_amount": 1,
         "income_amount": 0,
         "revenue_amount": 0,
-        "ntee_code": "B112"
+        "ntee_code": "B112",
+        "products": [
+          {
+          "item": "Bulk Buys Toothbrush Set, 36-pack",
+          "quantity": 4,
+          "price": 38,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-89ad/k2-_33c4ac4e-3c36-4347-85cc-1bf107e2c121.v1.jpg"
+          },
+        {
+          "item": "Bulk Buys Toothpaste, Clear Gel, Case of 144",
+          "quantity": 1,
+          "price": 101,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-d46b/k2-_21361b2d-9f45-4efc-8c2c-4ca40bf32335.v2.jpg"
+         },
+        {
+          "item": "Mens Socks, 12-Pack",
+          "quantity": 5,
+          "price": 10,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-18ab/k2-_769fa127-625d-4e17-8e3c-855804a055fa.v4.jpg"
+        },
+        {
+          "item": "Basic Toilet Paper Double Rolls, 24-count",
+          "quantity": 5,
+          "price": 10,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-9ef4/k2-_426c65e1-011e-4e24-8eb5-6da87d2b10ea.v1.jpg-51528ec6fab1e89c7c8d4f941f0bf97d4b64cf7e-webp-450x450.webp"
+        }
+        ]
       }
     },
     {
+      "id": 14,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 1,
@@ -1472,10 +1860,37 @@ export const propublicaData = {
         "asset_amount": 71259,
         "income_amount": 34979,
         "revenue_amount": 25202,
-        "ntee_code": "Q33"
+        "ntee_code": "Q33",
+        "products": [
+        {
+          "item": "Kleenex Everyday Tissues, 85 sheets, 6-pack",
+          "quantity": 4,
+          "price": 5.75,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-8fbc/k2-_6805753f-bbca-4386-8b82-92f7f820917a.v1.jpg"
+        },
+        {
+          "item": "Plastic Combs, 4-pack, Case of 12",
+          "quantity": 2,
+          "price": 31,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-b3a9/k2-_0b7f1611-f48b-4359-a9c7-3752be8f3fa0.v2.jpg"
+        },
+        {
+          "item": "Great Value Chewy Granola Bars Variety Pack, 24-count",
+          "quantity": 4,
+          "price": 4,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-e404/k2-_e9db7f15-8f64-4e29-bc93-9f98d5e89a76.v1.jpg-d825edf9bccc081c072def29c1b3168752742ef7-webp-450x450.webp"
+        },
+        {
+          "item": "Paper Coffee Cups, 500-count",
+          "quantity": 1,
+          "price": 58,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-be3e/k2-_f640add6-8aa3-4fd3-9398-3b6790d21219.v1.jpg"
+        }
+        ]
       }
     },
     {
+      "id": 15,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -1557,10 +1972,43 @@ export const propublicaData = {
         "asset_amount": 71259,
         "income_amount": 34979,
         "revenue_amount": 25202,
-        "ntee_code": "Q33"
+        "ntee_code": "Q33",
+        "products": [
+          {
+          "item": "Adult Sleeping Bag",
+          "quantity": 10,
+          "price": 24,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5b8e/k2-_9bf5ae57-71d7-4632-a9c8-b0b13679f65d.v1.jpg"
+          },
+          {
+          "item": "Aquafina Bottled Water, 32 pack",
+          "quantity": 5,
+          "price": 13,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-89a8/k2-_14762de6-c209-4959-99ee-039008df26c9.v1.jpg"
+          },
+          {
+          "item": "18-Pack White Washcloths",
+          "quantity": 2,
+          "price": 3.5,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-ef4d/k2-_97e4584a-81ee-4011-ba8b-c5086eb0789b.v2.jpg-753d0bcb198d3ba7e42f4b6e2d9de27a0e38e067-webp-450x450.webp"
+          },
+          {
+          "item": "Bulk Buys, Shampoo & Body Bath, 96-count",
+          "quantity": 1,
+          "price": 51,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c9a6/k2-_c1ea30b2-3336-40a1-ab45-c5bf7afb3943.v2.jpg"
+          },
+          {
+          "item": "Bath Towels",
+          "quantity": 50,
+          "price": 2,
+          "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1c46/k2-_6986c2c7-644b-46e1-90a8-8b52dfb1f9fc.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 16,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -1642,10 +2090,37 @@ export const propublicaData = {
         "asset_amount": 5408,
         "income_amount": 55278,
         "revenue_amount": 55278,
-        "ntee_code": "T30"
+        "ntee_code": "T30",
+        "products": [
+          {
+            "item": "Aloe Vera Hand Soap Refill, 56 fl oz.",
+            "quantity": 2,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-fa9a/k2-_8178068d-a052-46d2-8f2a-fdfdb40a8105.v1.jpg-c1769bccfbd4833142c6240fb222b034932e5efb-webp-450x450.webp"
+          },
+          {
+            "item": "Basic Toilet Paper Double Rolls, 24-count",
+            "quantity": 5,
+            "price": 10,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-9ef4/k2-_426c65e1-011e-4e24-8eb5-6da87d2b10ea.v1.jpg-51528ec6fab1e89c7c8d4f941f0bf97d4b64cf7e-webp-450x450.webp"
+          },
+          {
+            "item": "Men's Edge Sensitive Skin Shave Gel, 7 oz, 2-count",
+            "quantity": 5,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-dbce/k2-_95cafd77-7ebe-486a-868e-4f9d1fb5c292.v1.jpg-9e1e070502d7f2c19ab2e753598707d776f3ee3c-webp-450x450.webp"
+          },
+          {
+            "item": "Men's Disposable Razors, 8 count",
+            "quantity": 3,
+            "price": 6,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-935a/k2-_87124d31-839d-4ae4-8ba9-6331ec5b1fe3.v1.jpg-6a9d5735f883268ce4cbd1319b5504a330088ae7-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 17,
       "tax_prd": 201212,
       "tax_prd_yr": 2012,
       "formtype": 0,
@@ -1748,10 +2223,43 @@ export const propublicaData = {
         "asset_amount": 20986,
         "income_amount": 50000,
         "revenue_amount": 50000,
-        "ntee_code": "S41"
+        "ntee_code": "S41",
+        "products": [
+          {
+            "item": "Bulk Buys Toothbrush Set, 36-pack",
+            "quantity": 4,
+            "price": 38,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-89ad/k2-_33c4ac4e-3c36-4347-85cc-1bf107e2c121.v1.jpg"
+          },
+          {
+            "item": "Bulk Buys Toothpaste, Clear Gel, Case of 144",
+            "quantity": 1,
+            "price": 101,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-d46b/k2-_21361b2d-9f45-4efc-8c2c-4ca40bf32335.v2.jpg"
+          },
+          {
+            "item": "18-Pack White Washcloths",
+            "quantity": 2,
+            "price": 3.5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-ef4d/k2-_97e4584a-81ee-4011-ba8b-c5086eb0789b.v2.jpg-753d0bcb198d3ba7e42f4b6e2d9de27a0e38e067-webp-450x450.webp"
+          },
+          {
+            "item": "Pampers Diapers, Any Size, 140-ct.",
+            "quantity": 4,
+            "price": 38,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-15eb/k2-_e3ede8af-d62e-42be-97af-2c14dd80bb90.v3.jpg"
+          },
+          {
+            "item": "Baby Wipes, 80 sheets, 3-count",
+            "quantity": 4,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-810a/k2-_c59fd806-2a4c-403f-b8e1-48e7dc91bdba.v1.jpg-0ba5649515de85101726cdd27fa012872deb97c7-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 18,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 0,
@@ -1854,10 +2362,43 @@ export const propublicaData = {
         "asset_amount": 90775,
         "income_amount": 78515,
         "revenue_amount": 78515,
-        "ntee_code": "Q11"
+        "ntee_code": "Q11",
+        "products": [
+          {
+            "item": "Laundry Detergent, 210 oz.",
+            "quantity": 2,
+            "price": 11,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-751d/k2-_7146bdc3-fe4a-487c-a1ad-574d38b57004.v1.jpg-2465b87b5675fd0ac0ddbea537a7653ba73e929c-webp-450x450.webp"
+          },
+          {
+            "item": "Disposable Vinyl Gloves, 100 ct.",
+            "quantity": 2,
+            "price": 7,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-3829/k2-_cc776afd-3a1d-401e-9e6a-94e6f2442f9c.v1.jpg"
+          },
+          {
+            "item": "Bath Towels",
+            "quantity": 50,
+            "price": 2,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1c46/k2-_6986c2c7-644b-46e1-90a8-8b52dfb1f9fc.v1.jpg"
+          },
+          {
+            "item": "Bulk Buys, Shampoo & Body Bath, 96-count",
+            "quantity": 1,
+            "price": 51,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c9a6/k2-_c1ea30b2-3336-40a1-ab45-c5bf7afb3943.v2.jpg"
+          },
+          {
+            "item": "Clorox Regular Bleach, 121 fl. oz",
+            "quantity": 1,
+            "price": 4,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1a8a/k2-_d78ecd66-0695-49de-ba43-96b1cf8e71d3.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 19,
       "tax_prd": 201212,
       "tax_prd_yr": 2012,
       "formtype": 0,
@@ -1960,10 +2501,43 @@ export const propublicaData = {
         "asset_amount": 90775,
         "income_amount": 78515,
         "revenue_amount": 78515,
-        "ntee_code": "Q11"
+        "ntee_code": "Q11",
+        "products": [
+          {
+            "item": "Microfiber Spin Mop and Bucket set",
+            "quantity": 1,
+            "price": 34,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c7ee/k2-_35974250-0ef3-4941-9c6b-df2f6839df9b.v2.jpg-8992fc787081ec9c62ad491065448616a171517e-webp-450x450.webp"
+          },
+          {
+            "item": "Kitchen Towels, 5-pack",
+            "quantity": 2,
+            "price": 15,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-b34a/k2-_6f8fc475-4a72-4f2c-87a6-f2885f176c08.v1.jpg-5038c875fed9b09f39729361604c02345cf4795f-webp-450x450.webp"
+          },
+          {
+            "item": "Plastic Table Cover, 108\" x 54\"",
+            "quantity": 10,
+            "price": 2,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-d68b/k2-_ae7d6209-f867-4dc7-95b0-9a8f16536ca8.v1.jpg"
+          },
+          {
+            "item": "Lysol Bathroom Cleaner Spray",
+            "quantity": 2,
+            "price": 3.15,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-995c/k2-_4f715541-1a1f-485a-a5a9-53fcb667b759.v1.jpg-32258536fd3c42464676b512f7bf46e7e09e5848-webp-450x450.webp"
+          },
+          {
+            "item": "Clorox Regular Bleach, 121 fl. oz",
+            "quantity": 1,
+            "price": 4,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1a8a/k2-_d78ecd66-0695-49de-ba43-96b1cf8e71d3.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 20,
       "tax_prd": 201212,
       "tax_prd_yr": 2012,
       "formtype": 1,
@@ -2045,10 +2619,37 @@ export const propublicaData = {
         "asset_amount": 9011,
         "income_amount": 150048,
         "revenue_amount": 150048,
-        "ntee_code": "X21"
+        "ntee_code": "X21",
+        "products": [
+          {
+            "item": "Heavy-Duty Paper Plates, 100-count",
+            "quantity": 5,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-a3e2/k2-_09891553-fcbc-4e87-9dc7-c27fa4f638f9.v1.jpg-69ee65a454dda6ac17f6440eb0df19db871aea51-webp-450x450.webp"
+          },
+          {
+            "item": "Clear cups, 16 fl oz, 100-count",
+            "quantity": 5,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c58b/k2-_05ad2439-1ca5-4dc1-859b-24b601f7755f.v1.jpg-73d19bb1a3191b5a316b0f7360977510c9cac444-webp-450x450.webp"
+          },
+          {
+            "item": "Napkins, 600-count",
+            "quantity": 2,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-a510/k2-_a89ec10e-df11-4c9e-81d8-998d0f529047.v1.jpg-696fb252bb97ef67bf9ca42708181aa8ef9f838f-webp-450x450.webp"
+          },
+          {
+            "item": "Splenda Sweetener Packets, 400-count",
+            "quantity": 2,
+            "price": 13,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-6284/k2-_12ce4ac4-67e4-422b-b873-d67f3eb72e8a.v1.jpg-7f54feec45caf9572a93bc4dd201a196240300c8-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 21,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -2130,10 +2731,43 @@ export const propublicaData = {
         "asset_amount": 9011,
         "income_amount": 150048,
         "revenue_amount": 150048,
-        "ntee_code": "X21"
+        "ntee_code": "X21",
+        "products": [
+          {
+            "item": "Umbrellas, Case of 60",
+            "quantity": 1,
+            "price": 230,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-daac/k2-_dc3c89ad-a1ac-4731-b65b-487f9b48106f.v2.jpg"
+          },
+          {
+            "item": "LED Aluminum Flashlight",
+            "quantity": 2,
+            "price": 9.99,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1f18/k2-_279cb7a1-c380-4f1e-9b88-4f16a460135a.v1.jpg"
+          },
+          {
+            "item": "Flip-Top Water Bottle",
+            "quantity": 15,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-657d/k2-_23a495f9-228d-4dbb-bcc8-2338ac99a272.v1.jpg"
+         },
+         {
+            "item": "Microfiber Pillow, 2 Pack",
+            "quantity": 5,
+            "price": 7,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-7748/k2-_f6c8c9bf-45c1-4e99-a068-494a0f9b3677.v1.jpg-eaeec1a53b2cc07a4c8f2d32da10115f1c9a5a6f-webp-450x450.webp"
+          },
+          {
+            "item": "Adult Sleeping Bag",
+            "quantity": 10,
+            "price": 24,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5b8e/k2-_9bf5ae57-71d7-4632-a9c8-b0b13679f65d.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 22,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -2215,10 +2849,37 @@ export const propublicaData = {
         "asset_amount": 528,
         "income_amount": 7000,
         "revenue_amount": 7000,
-        "ntee_code": "X12"
+        "ntee_code": "X12",
+        "products": [
+          {
+            "item": "Mens Socks, 12-Pack",
+            "quantity": 5,
+            "price": 10,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-18ab/k2-_769fa127-625d-4e17-8e3c-855804a055fa.v4.jpg"
+          },
+          {
+            "item": "Blankets",
+            "quantity": 50,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-3402/k2-_97dc62f6-1e14-49b2-816d-80de8da771c5.v2.jpg-cb7b3a2fe55d1cd183bbfc437cc1602ef27f1bd3-webp-450x450.webp"
+          },
+          {
+            "item": "Men's Edge Sensitive Skin Shave Gel, 7 oz, 2-count",
+            "quantity": 5,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-dbce/k2-_95cafd77-7ebe-486a-868e-4f9d1fb5c292.v1.jpg-9e1e070502d7f2c19ab2e753598707d776f3ee3c-webp-450x450.webp"
+          },
+          {
+            "item": "Men's Disposable Razors, 8 count",
+            "quantity": 3,
+            "price": 6,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-935a/k2-_87124d31-839d-4ae4-8ba9-6331ec5b1fe3.v1.jpg-6a9d5735f883268ce4cbd1319b5504a330088ae7-webp-450x450.webp"
+          }
+        ]
       }
     },
     {
+      "id": 23,
       "tax_prd": 201312,
       "tax_prd_yr": 2013,
       "formtype": 1,
@@ -2300,10 +2961,49 @@ export const propublicaData = {
         "asset_amount": 43040,
         "income_amount": 93912,
         "revenue_amount": 29316,
-        "ntee_code": "B90"
+        "ntee_code": "B90",
+        "products": [
+          {
+            "item": "Aloe Vera Hand Soap Refill, 56 fl oz.",
+            "quantity": 2,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-fa9a/k2-_8178068d-a052-46d2-8f2a-fdfdb40a8105.v1.jpg-c1769bccfbd4833142c6240fb222b034932e5efb-webp-450x450.webp"
+          },
+          {
+            "item": "Basic Toilet Paper Double Rolls, 24-count",
+            "quantity": 5,
+            "price": 10,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-9ef4/k2-_426c65e1-011e-4e24-8eb5-6da87d2b10ea.v1.jpg-51528ec6fab1e89c7c8d4f941f0bf97d4b64cf7e-webp-450x450.webp"
+          },
+          {
+            "item": "Kleenex Everyday Tissues, 85 sheets, 6-pack",
+            "quantity": 4,
+            "price": 5.75,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-8fbc/k2-_6805753f-bbca-4386-8b82-92f7f820917a.v1.jpg"
+          },
+          {
+            "item": "Plastic Combs, 4-pack, Case of 12",
+            "quantity": 2,
+            "price": 31,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-b3a9/k2-_0b7f1611-f48b-4359-a9c7-3752be8f3fa0.v2.jpg"
+          },
+          {
+            "item": "Umbrellas, Case of 60",
+            "quantity": 1,
+            "price": 230,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-daac/k2-_dc3c89ad-a1ac-4731-b65b-487f9b48106f.v2.jpg"
+          },
+          {
+            "item": "Paper Coffee Cups, 500-count",
+            "quantity": 1,
+            "price": 58,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-be3e/k2-_f640add6-8aa3-4fd3-9398-3b6790d21219.v1.jpg"
+          }
+        ]
       }
     },
     {
+      "id": 24,
       "tax_prd": 201112,
       "tax_prd_yr": 2011,
       "formtype": 1,
@@ -2385,10 +3085,43 @@ export const propublicaData = {
         "asset_amount": 5824,
         "income_amount": 68298,
         "revenue_amount": 68298,
-        "ntee_code": "X21"
+        "ntee_code": "X21",
+        "products": [
+          {
+            "item": "Heavy-Duty Paper Plates, 100-count",
+            "quantity": 5,
+            "price": 4,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-a3e2/k2-_09891553-fcbc-4e87-9dc7-c27fa4f638f9.v1.jpg-69ee65a454dda6ac17f6440eb0df19db871aea51-webp-450x450.webp"
+          },
+          {
+            "item": "Clear cups, 16 fl oz, 100-count",
+            "quantity": 5,
+            "price": 5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c58b/k2-_05ad2439-1ca5-4dc1-859b-24b601f7755f.v1.jpg-73d19bb1a3191b5a316b0f7360977510c9cac444-webp-450x450.webp"
+          },
+          {
+            "item": "Del Monte Canned Sliced Peaches, 106 oz.",
+            "quantity": 4,
+            "price": 7.3,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-f03e/k2-_3222ccba-7d5e-4136-a333-a5aa4cbb20f8.v1.jpg-1ce2e7c913d79ac26b98a3eb9fc2d2c1f7773b64-webp-450x450.webp"
+          },
+         {
+            "item": "Gatorade Fruit Punch Mix, 8 packets",
+            "quantity": 4,
+            "price": 5.75,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5c95/k2-_fb0b312b-203f-4e6b-94c0-ff2e81da9287.v1.jpg"
+          },
+          {
+            "item": "Quaker Oats Variety Oatmeal, 10-count",
+            "quantity": 3,
+            "price": 2.5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-6840/k2-_4fc7e75d-808b-4532-af40-1b0849e5d459.v2.jpg"
+           }
+        ]
       }
     },
     {
+      "id": 25,
       "tax_prd": 201309,
       "tax_prd_yr": 2013,
       "formtype": 1,
@@ -2470,7 +3203,51 @@ export const propublicaData = {
         "asset_amount": 146000,
         "income_amount": 104441,
         "revenue_amount": 104441,
-        "ntee_code": "P80"
+        "ntee_code": "P80",
+        "products": [
+          {
+              "item": "Flip-Top Water Bottle",
+              "quantity": 15,
+              "price": 5,
+              "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-657d/k2-_23a495f9-228d-4dbb-bcc8-2338ac99a272.v1.jpg"
+          },
+          {
+            "item": "Kraft Easy Macaroni and Cheese, 4-count",
+            "quantity": 9,
+            "price": 3.5,
+            "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-5d33/k2-_5da872ff-aa1a-420c-9fc3-cee94830677c.v1.jpg"
+          },
+         {
+            "item": "Assorted Plastic Cutlery, 288-Count",
+            "quantity": 3,
+            "price": 7,
+            "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-8f3e/k2-_3d9f3f8b-114c-4401-824d-be375d749536.v1.jpg"
+          },
+        {
+          "item": "Napkins, 600-count",
+          "quantity": 2,
+          "price": 4,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-a510/k2-_a89ec10e-df11-4c9e-81d8-998d0f529047.v1.jpg-696fb252bb97ef67bf9ca42708181aa8ef9f838f-webp-450x450.webp"
+        },
+        {
+          "item": "Bulk Buys, Shampoo & Body Bath, 96-count",
+          "quantity": 1,
+          "price": 51,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-c9a6/k2-_c1ea30b2-3336-40a1-ab45-c5bf7afb3943.v2.jpg"
+        },
+        {
+          "item": "Bath Towels",
+          "quantity": 50,
+          "price": 2,
+          "photolink": "http://i5.walmartimages.com/dfw/dce07b8c-1c46/k2-_6986c2c7-644b-46e1-90a8-8b52dfb1f9fc.v1.jpg"
+        },
+        {
+          "item": "Laundry Detergent, 210 oz.",
+          "quantity": 2,
+          "price": 11,
+          "photolink": "http://ll-us-i5.wal.co/dfw/dce07b8c-751d/k2-_7146bdc3-fe4a-487c-a1ad-574d38b57004.v1.jpg-2465b87b5675fd0ac0ddbea537a7653ba73e929c-webp-450x450.webp"
+        }
+        ]
       }
     }
   ],
