@@ -10,7 +10,7 @@ class DetailPanel extends React.Component {
     return (
       <div>
         <h1 className="text-success text-normal">How can you help?</h1>
-        <PriceButtons total={20} />
+        <PriceButtons id={id} total={20} />
         <p>&nbsp;</p>
         <Row>
           <Col sm={12}>
