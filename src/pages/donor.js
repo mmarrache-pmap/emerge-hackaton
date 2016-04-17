@@ -25,7 +25,7 @@ class DonorPage extends React.Component {
 
     return (
       <Main>
-        <Hero type="image" src="/static/images/hero-donor.png"
+        <Hero type="image" src="/static/images/hero-donor.jpg" overlay
               title="Conquering homelessness is a shared responsibility" />
 
         <br/>
