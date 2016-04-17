@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router';
 import Main from '../layouts/main';
 import Hero from '../components/Hero';
 import { Row, Col } from 'react-bootstrap';
@@ -90,13 +89,6 @@ class DetailPage extends React.Component {
             </Col>
 
             <Col sm={6} md={5} mdOffset={2}>
-              {/*
-              <Link to={`/detail/${currentOrg.id}`}>Detail</Link>
-              {' '}|{' '}
-              <Link to={`/detail/${currentOrg.id}/login`}>Login</Link>
-              {' '}|{' '}
-              <Link to={`/detail/${currentOrg.id}/checkout`}>Checkout</Link>
-              */}
               {rightPanel}
             </Col>
 

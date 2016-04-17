@@ -130,7 +130,7 @@ mark{
 .text-bold{
   font-weight: 700;
 }
-.text-noraml{
+.text-normal{
   font-weight: 400;
 }
 .text-uppercase{
@@ -237,7 +237,7 @@ mark{
 .hero {
   position: relative;
   margin: -136px -15px 0;
-  min-height: 400px;
+  min-height: 600px;
   border-bottom: 10px solid $link-color;
   -webkit-transition: $transition;
   -moz-transition: $transition;
@@ -265,6 +265,7 @@ mark{
 
 @media (max-width: 767px) {
   .hero{
+    min-height: 400px;
     .hero-title{
       width: 80%;
       font-size: 22px;
@@ -278,8 +279,6 @@ mark{
 
 @media (min-width: 1100px) {
   .hero{
-    min-height: 600px;
-
     .hero-title{
       width: 30%;
 
@@ -346,6 +345,8 @@ mark{
 }
 
 .price-buttons{
+  margin-top: 20px;
+
   .btn{
     padding-left: 2px;
     padding-right: 2px;
