@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component, PropTypes } from 'react';
 import Main from '../layouts/main';
+import { connect } from 'react-redux';
 import { fetchAuth } from '../redux/actions/auth-actions';
 import { Grid, Row, Col, Alert, Panel, Button, ButtonInput } from 'react-bootstrap';
 
@@ -12,8 +13,12 @@ class Login extends React.Component {
   }
 
   handleAuth(e){
+    const { dispatch } = this.props;
     e.preventDefault();
-    console.log(e);
+    console.log("USER NAME: ",this.refs.loginName.value);
+    console.log("PASSWORD: ",this.refs.password.value);
+    dispatch(fetchAuth(this.refs.loginName.value, this.refs.password.value));
+
   }
   render() {
     return (
@@ -39,7 +44,7 @@ class Login extends React.Component {
               </div>
             </div>
 
-            <ButtonInput type="submit" value="Login" bsStyle="primary" block />
+            <ButtonInput type="submit" value="Login" bsStyle="success" block />
 
           </Col>
         </Row>
@@ -49,11 +54,12 @@ class Login extends React.Component {
 }
 
 Login.propTypes = {
-  onLogin: React.PropTypes.func
+  dispatch: PropTypes.func,
+  state: PropTypes.object
 };
 
 const mapStateToProps = (state) => {
-  auth: state.auth;
-}
+  auth: state.auth
+};
 
-export default Login;
+export default connect(mapStateToProps)(Login);
