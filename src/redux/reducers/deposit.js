@@ -10,6 +10,9 @@ function depositReducer(state={}, action) {
         ...state,
         amount: action.value
       };
+      
+      default:
+        return state;
   }
 }
 
