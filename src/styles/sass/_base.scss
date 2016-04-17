@@ -357,3 +357,13 @@ mark{
     margin-top: 6px;
   }
 }
+
+.content-about {
+  h1 {
+    font-weight: 400;
+    color: $link-color;
+  }
+  p {
+    line-height: 26pt;
+  }
+}
