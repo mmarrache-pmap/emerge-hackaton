@@ -9,7 +9,7 @@ $body-bg: #EFEFF4;
 $default-color: #CCCCCC;   // Default color
 $primary-color: #337AB7;   // #0081C6;  // Primary color
 $info-color: #1CC09F;      // Info color
-$success-color: #5CB85C;   // Success color
+$success-color: #8CC152;   // Success color
 $warning-color: #F0AD4E;   // Warrning color
 $danger-color: #D9534F;    // Danger color
 
@@ -19,7 +19,7 @@ $link-color: #E62565;
 $muted-color: rgba(0,0,0,.4);
 
 // Border Color
-$border-color: #E7E7E7;
+$border-color: darken($body-bg, 10%);
 
 // Misc
 $transition: all .5s ease;
