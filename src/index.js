@@ -13,11 +13,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/sass/styles.scss';
 
 // Redux actions.
-// import { fetchPropublica } from './redux/actions/propublica-actions'
-import { fetchPropublica } from './redux/actions/propublica-actions';
+import { depositAmount } from './redux/actions/deposit-actions';
 
 // Default api calls.
-// store.dispatch(fetchPropublica('hope'));
+store.dispatch(depositAmount(0));
+
 
 injectTapEventPlugin();
 

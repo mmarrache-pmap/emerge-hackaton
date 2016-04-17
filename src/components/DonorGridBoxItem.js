@@ -70,7 +70,7 @@ class DonorGridBoxItem extends React.Component {
 
           </div>
 
-          <PriceButtons total={Math.ceil(total)} />
+          <PriceButtons id={data.id} total={Math.ceil(total)} />
 
         </div>
       </li>
