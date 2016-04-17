@@ -5,9 +5,9 @@
   "description": "eMerge Hackathon project",
   "private": false,
   "scripts": {
-    "expr": "npm run build && cp ./src/index.ejs views/. && node server.babel.js ",
+    "expr": "npm run build && node server.babel.js ",
     "start": "npm run build && webpack-dev-server --history-api-fallback --devtool eval-source-map --hot --inline --progress --colors",
-    "build": "npm run clean && webpack --progress --colors",
+    "build": "npm run clean && webpack --progress --colors && cp ./src/index.ejs views/.",
     "build:prod": "npm run clean && NODE_ENV=production webpack --progress --colors",
     "build-old": "NODE_ENV=production && npm run clean && webpack -p",
     "clean": "rimraf views",
