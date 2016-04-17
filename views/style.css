@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500);/*
+ *
+ *   ANDROMEDA: ProcessMAP Theme System
+ *   version 1.0.0
+ *
+*/
+/* ------------------------------------------------
+---------------------------------------------------
+   GENERAL
+---------------------------------------------------
+------------------------------------------------ */
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
+
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #676A6C;
+  overflow-x: hidden;
+  background-color: #F3F3F4; }
+
+html, body {
+  height: 100%; }
+
+*:focus {
+  outline: 0 !important; }
+
+a {
+  cursor: pointer; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.block {
+  display: block; }
+
+.clear {
+  display: block;
+  overflow: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 16px; }
+
+h4 {
+  font-size: 14px; }
+
+h5 {
+  font-size: 12px; }
+
+h6 {
+  font-size: 10px; }
+
+h3, h4, h5 {
+  margin: 5px 0 10px;
+  font-weight: 600; }
+
+p.lead {
+  font-size: 125%; }
+
+ul.unstyled,
+ol.unstyled {
+  list-style: none outside none;
+  margin-left: 0; }
+
+hr {
+  border-bottom: 1px solid #E7E7E7;
+  background-color: transparent;
+  border-style: solid !important;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+mark {
+  padding: 0;
+  background-color: rgba(46, 225, 189, 0.75); }
+
+.text-bold {
+  font-weight: 600; }
+
+.text-noraml {
+  font-weight: 400; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+@media (max-width: 767px) {
+  .text-left-xs {
+    text-align: left !important; }
+  .text-center-xs {
+    text-align: center !important; }
+  .text-right-xs {
+    text-align: right !important; } }
+
+@media (max-width: 991px) {
+  .text-left-sm {
+    text-align: left !important; }
+  .text-center-sm {
+    text-align: center !important; }
+  .text-right-sm {
+    text-align: right !important; } }
+
+@media (max-width: 1199px) {
+  .text-left-md {
+    text-align: left !important; }
+  .text-center-md {
+    text-align: center !important; }
+  .text-right-md {
+    text-align: right !important; } }
+
+@media (min-width: 1200px) {
+  .text-left-lg {
+    text-align: left !important; }
+  .text-center-lg {
+    text-align: center !important; }
+  .text-right-lg {
+    text-align: right !important; } }
+
+.ellipsis-overflow {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.btn {
+  margin-left: 6px;
+  margin-right: 6px; }
+
+.btn-xs,
+.btn-group-xs > .btn {
+  font-size: 14px; }
+
+.dropdown-menu {
+  top: 80%; }
+
+/* ------------------------------------------------
+---------------------------------------------------
+   SPINNER
+---------------------------------------------------
+------------------------------------------------ */
+.spinner--loader {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto; }
+  .spinner--loader .spinner--loader--circle_1, .spinner--loader .spinner--loader--circle_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: spinnerCircleBounce 2s infinite ease-in-out;
+    animation: spinnerCircleBounce 2s infinite ease-in-out; }
+  .spinner--loader .spinner--loader--circle_2 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s; }
+
+@-webkit-keyframes spinnerCircleBounce {
+  0%, 100% {
+    -webkit-transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1); } }
+
+@keyframes spinnerCircleBounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }

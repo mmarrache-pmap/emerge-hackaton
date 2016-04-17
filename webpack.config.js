@@ -8,25 +8,25 @@ const DEV = process.env.NODE_ENV !== 'production';
 const config = {
   entry: {
     javascript: './src/index.js',
-    html: './src/index.html',
+    ejs: './src/index.ejs'
   },
 
   output: {
     filename: 'index.js',
-    path: __dirname + '/build',
+    path: __dirname + '/views',
   },
 
-  devServer: {
-    contentBase: './build',
-    hot: true,
-    noInfo: false,
-    port: 2015,
-    proxy: {
-      '/api/0/documents': {
-        target: 'http://cosmos.pmapconnect.com:8081/'
-      }
-    }
-  },
+  // devServer: {
+  //   contentBase: './views',
+  //   hot: true,
+  //   noInfo: false,
+  //   port: 2015,
+  //   proxy: {
+  //     '/api/0/documents': {
+  //       target: 'http://cosmos.pmapconnect.com:8081/'
+  //     }
+  //   }
+  // },
 
   copydocs: [
     fse.copy('./src/static', './build/static', {clobber: true})
@@ -44,6 +44,11 @@ const config = {
       {
         test: /\.html$/,
         loader: 'file?name=[name].[ext]',
+      },
+      // EJS.
+      {
+        test: /\.ejs$/,
+        loader: 'ejs-loader?variable=data'
       },
       // CSS.
       {
