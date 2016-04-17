@@ -5,11 +5,11 @@ import { Row, Col } from 'react-bootstrap';
 class Footer extends React.Component {
   render() {
     return (
-    <Footer>
+    <div className="content-wrapper footer">
       <Row>
         <Col md={4}>
           <h2>Efficient Rebels</h2>
-            <ul>
+            <ul className="nav">
               <li>Michel Marrache</li>
               <li>Cyrus Walker</li>
               <li>Marcelo Paiva</li>
@@ -19,7 +19,7 @@ class Footer extends React.Component {
         </Col>
         <Col md={4}>
           <h2>Stack</h2>
-          <ul>
+          <ul className="nav">
             <li>React</li>
             <li>NodeJS</li>
             <li>Express</li>
@@ -27,20 +27,16 @@ class Footer extends React.Component {
         </Col>
         <Col md={4}>
           <h2>API</h2>
-          <ul>
+          <ul className="nav">
             <li>Visa Direct</li>
             <li>ProRepublica</li>
             <li>Flickr</li>
           </ul>
         </Col>
       </Row>
-    </Footer>
+    </div>
     );
   }
 }
-
-Footer.propTypes = {
-  // title: React.PropTypes.string,
-};
 
 export default Footer;
