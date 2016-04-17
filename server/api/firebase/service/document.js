@@ -1,8 +1,8 @@
 import Firebase from 'firebase';
 
-let ref = new Firebase('https://resplendent-heat-3135.firebaseio.com');
+let ref = new Firebase('https://fundinghope.firebaseio.com/');
 
-export function getDocuments() {
+export function getHope() {
   return ref.once('value').then(data => {
     return data.val();
   });

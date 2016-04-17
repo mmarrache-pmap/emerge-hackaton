@@ -1,9 +1,13 @@
 import bodyParser from 'body-parser';
 import express from 'express';
 import path from 'path';
+import webpack from 'webpack';
+import webpackDevMiddleware from 'webpack-dev-middleware';
+import webpackHotMiddleware from 'webpack-hot-middleware';
+
+/* old for GraphQL */
 // import Schema from './server/api/schema';
-//
-// import * as api from './server/api/http';
+import * as api from './server/api/http';
 
 const app = express();
 const port = 8081;
@@ -27,11 +31,17 @@ app.use(express.static('./views'));
    username: 'Cyrus',
    password: 'Batman'
  }
-app.get('*', function (req, res) {
+
+ // Target
+ app.get('/api/0/hope', api.getHope);
+
+app.get('/', function (req, res) {
     res.render('index', {
 
       user: JSON.stringify(userObj || null )
     });
 });
+
+
 
 app.listen(port, () => console.log('SERVER RUNNING ====> http://localhost:' + port));

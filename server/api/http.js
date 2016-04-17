@@ -3,8 +3,8 @@ import * as service from './firebase/service/document';
 // import * as service from './json/service/document';
 
 
-export function getDocuments(req, res) {
-  service.getDocuments()
+export function getHope(req, res) {
+  service.getHope()
   .then((documents) => res.json(documents))
   .catch(err => {
     res.status(400);

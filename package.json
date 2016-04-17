@@ -55,7 +55,7 @@
     "extract-text-webpack-plugin": "^0.8.2",
     "file-loader": "^0.8.4",
     "filepicker-js": "^2.3.6",
-    "firebase": "^2.4.0",
+    "firebase": "^2.4.2",
     "fs-extra": "^0.24.0",
     "glob": "^5.0.15",
     "history": "~1.17.0",
