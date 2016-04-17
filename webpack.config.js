@@ -16,20 +16,20 @@ const config = {
     path: __dirname + '/views',
   },
 
-  // devServer: {
-  //   contentBase: './views',
-  //   hot: true,
-  //   noInfo: false,
-  //   port: 2015,
-  //   proxy: {
-  //     '/api/0/documents': {
-  //       target: 'http://cosmos.pmapconnect.com:8081/'
-  //     }
-  //   }
-  // },
+  devServer: {
+    contentBase: './views',
+    hot: true,
+    noInfo: false,
+    port: 2015,
+    proxy: {
+      '/api/0/documents': {
+        target: 'http://cosmos.pmapconnect.com:8081/'
+      }
+    }
+  },
 
   copydocs: [
-    fse.copy('./src/static', './build/static', {clobber: true})
+    fse.copy('./src/static', './views/static', {clobber: true})
   ],
 
   module: {

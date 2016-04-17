@@ -9,7 +9,14 @@ import Routes from './routes';
 import App from './app';
 
 // Stylesheets.
-import './styles/sass/andromeda/andromeda.scss';
+import 'bootstrap/dist/css/bootstrap.css';
+import './styles/sass/styles.scss';
+
+// Redux actions.
+// import { fetchPropublica } from './redux/actions/propublica-actions';
+
+// Default api calls.
+// store.dispatch(fetchPropublica(''));
 
 // Needed for onTouchTap - Can go away when react 1.0 release
 // Check this repo: https://github.com/zilverline/react-tap-event-plugin
