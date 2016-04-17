@@ -187,6 +187,12 @@ mark{
 .bg-grey{
   background-color: darken($body-bg, 10%);
 }
+.bg-dark-grey{
+  background-color: darken($body-bg, 30%);
+}
+.bg-green{
+  background-color: $success-color;
+}
 
 .content-wrapper{
   padding: 20px 30px;
