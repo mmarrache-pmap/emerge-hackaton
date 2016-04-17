@@ -13,10 +13,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/sass/styles.scss';
 
 // Redux actions.
-import { depositAmount } from './redux/actions/deposit-actions';
+import { setDepositAmount } from './redux/actions/deposit-actions';
 
 // Default api calls.
-store.dispatch(depositAmount(0));
+store.dispatch(setDepositAmount(0));
 
 
 injectTapEventPlugin();

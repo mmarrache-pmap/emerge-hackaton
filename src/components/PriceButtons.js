@@ -3,13 +3,13 @@ import {connect} from 'react-redux';
 import { Link } from 'react-router';
 import { Row, Col } from 'react-bootstrap';
 
-import { depositAmount } from '../redux/actions/deposit-actions';
+import { setDepositAmount } from '../redux/actions/deposit-actions';
 
 
 class PriceButton extends React.Component {
   setCheckoutAmount(amount) {
     const { dispatch } = this.props;
-    dispatch(depositAmount(amount));
+    dispatch(setDepositAmount(amount));
   }
 
   render() {
