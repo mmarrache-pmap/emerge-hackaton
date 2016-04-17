@@ -10,6 +10,10 @@ import utils from '../utils';
 class Login extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      user: ''
+    };
   }
 
   handleAuth(e){
@@ -17,11 +21,15 @@ class Login extends React.Component {
     e.preventDefault();
     console.log("USER NAME: ",this.refs.loginName.value);
     console.log("PASSWORD: ",this.refs.password.value);
-    dispatch(fetchAuth(this.refs.loginName.value, this.refs.password.value));
-
+    // dispatch(fetchAuth(this.refs.loginName.value, this.refs.password.value));
+    this.setState({
+      user: this.refs.loginName.value
+    });
   }
   render() {
     return (
+      <div>
+      { this.state.user === '' ?
       <form role="form" onSubmit={this.handleAuth.bind(this)}>
         <Row>
           <Col md={10} mdOffset={1}>
@@ -48,7 +56,12 @@ class Login extends React.Component {
 
           </Col>
         </Row>
-      </form>
+      </form> :
+      <div>
+        <p>Thank you for logging in {this.state.user}</p>
+      </div>
+      }
+      </div>
     );
   }
 }
