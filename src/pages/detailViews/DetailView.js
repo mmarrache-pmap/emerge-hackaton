@@ -23,11 +23,7 @@ class DetailPanel extends React.Component {
 }
 
 DetailPanel.propTypes = {
-<<<<<<< HEAD
-  id: React.PropTypes.number
-=======
   id: React.PropTypes.number,
->>>>>>> 19c5f59027038bcf4e8dfaba0b7039f317374910
 };
 
 export default DetailPanel;
