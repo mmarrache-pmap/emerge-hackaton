@@ -184,6 +184,20 @@ mark{
   text-overflow: ellipsis;
 }
 
+.col-half-wrapper{
+  margin: -15px;
+}
+
+.col-half{
+  width: 50%;
+  padding: 28px
+}
+@media(max-width: 767px){
+  .col-half{
+    width: 100%;
+  }
+}
+
 .bg-grey{
   background-color: darken($body-bg, 10%);
 }
@@ -374,6 +388,13 @@ mark{
   }
 }
 
+.thank-you-image{
+ display: block;
+ width: 100%;
+ min-width: 100%;
+ height: auto;
+}
+
 footer {
    padding-top: 20px;
    padding-bottom: 20px;
@@ -384,4 +405,4 @@ footer {
    li {
      color: white;
    }
-}
+ }
