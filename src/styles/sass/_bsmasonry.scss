@@ -6,23 +6,35 @@
   margin-left: -.5em;
 
   .masonry-box {
+    position: relative;
     display: inline-block;
     margin: .5em;
     padding: 0;
     width:98%;
+
+    &.open{
+      width: 200%;
+    }
 
     padding: 10px;
     background-color: #FFFFFF;
     border: 1px solid $border-color;
 
     .masonry-box-content{
-      padding: 10px 0 0;
+      padding: 10px 25px 0;
 
       .masonry-box-title,
       a.masonry-box-title{
+        font-size: 14px;
         font-weight: 400;
         padding: 0 0 10px;
       }
+    }
+
+    .ribbon-circle {
+      position: absolute;
+      top: 18px;
+      right: 18px;
     }
 
  }

@@ -8,14 +8,18 @@ class Loader extends React.Component {
     let color;
     switch (theme) {
     case 'dark':
-      color = '#000000';
+      color = 'rgba(0,0,0,.5)';
+      break;
+    case 'light':
+      color = '#00FF00';
       break;
     default:
-      color = '#FFFFFF';
+      color = color;
     }
 
     const styles = {
       base: {
+        display: 'inline-block',
         textAlign: 'center',
         margin: padding
       },
@@ -50,7 +54,7 @@ Loader.propTypes = {
     React.PropTypes.string,
     React.PropTypes.number
   ]),
-  theme: React.PropTypes.oneOf(['light', 'dark'])
+  theme: React.PropTypes.string
 };
 
 Loader.defaultProps = {

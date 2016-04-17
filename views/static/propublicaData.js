@@ -131,6 +131,7 @@ export const propublicaData = {
       "organization": {
         "strein": "01-0591774",
         "sub_name": "WELL OF LIFE FOUNDATION",
+        "photo": "11142797173_70e6dd5e8b_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/01-0591774/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10591774/",
         "updated": "2015-08-04T20:25:30.806Z",
@@ -294,6 +295,7 @@ export const propublicaData = {
       "organization": {
         "strein": "01-0591774",
         "sub_name": "WELL OF LIFE FOUNDATION",
+        "photo": "11925935443_10e712996a_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/01-0591774/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10591774/",
         "updated": "2015-08-04T20:25:30.806Z",
@@ -399,6 +401,7 @@ export const propublicaData = {
       "organization": {
         "strein": "01-0714415",
         "sub_name": "NEW JERUSALEM COMMUNITY DEVELOPMENT CORPORATION",
+        "photo": "12943041424_2df4bb8d09_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/01-0714415/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10714415/",
         "updated": "2015-08-04T20:25:34.474Z",
@@ -483,6 +486,7 @@ export const propublicaData = {
       "organization": {
         "strein": "01-0812234",
         "sub_name": "ST AGNES HOUSING CORPORATION",
+        "photo": "12947500895_c3eedc6000_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/01-0812234/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10812234/",
         "updated": "2015-08-04T20:25:37.244Z",
@@ -567,6 +571,7 @@ export const propublicaData = {
       "organization": {
         "strein": "01-0812234",
         "sub_name": "ST AGNES HOUSING CORPORATION",
+        "photo": "14216490509_8f3ff28240_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/01-0812234/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10812234/",
         "updated": "2015-08-04T20:25:37.244Z",
@@ -672,6 +677,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0508960",
         "sub_name": "EGLISE EVANGELIQUE BAPTISTE DE LUMIERE INC",
+        "photo": "14581552271_4df580462e_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0508960/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20508960/",
         "updated": "2015-08-04T20:25:44.335Z",
@@ -756,6 +762,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0546537",
         "sub_name": "DIASPORA VIBE CULTURAL ARTS INCUBATOR INC",
+        "photo": "16434646941_ea2306105a_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0546537/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20546537/",
         "updated": "2015-08-04T20:25:45.243Z",
@@ -861,6 +868,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0547930",
         "sub_name": "SECULAR ASSOCIATION TOTUS TUUS INC",
+        "photo": "382595491_9c858a4ba9_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0547930/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20547930/",
         "updated": "2015-08-04T20:25:45.243Z",
@@ -966,6 +974,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0552636",
         "sub_name": "GENERACION EN CONQUISTA INC",
+        "photo": "4050523207_aca4f90345_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0552636/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20552636/",
         "updated": "2015-08-04T20:25:45.243Z",
@@ -1071,6 +1080,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0552636",
         "sub_name": "GENERACION EN CONQUISTA INC",
+        "photo": "529586900_20673195a0_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0552636/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20552636/",
         "updated": "2015-08-04T20:25:45.243Z",
@@ -1155,6 +1165,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0729495",
         "sub_name": "BEZERRA DE MENEZES KARDECIAN SPIRITIST ASSOCIATION INC",
+        "photo": "5342073430_0f63c8d3f4_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0729495/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20729495/",
         "updated": "2015-08-04T20:25:51.277Z",
@@ -1260,6 +1271,7 @@ export const propublicaData = {
       "organization": {
         "strein": "02-0719336",
         "sub_name": "HOPE COMMUNITY DEVELOPMENT CORPORATION",
+        "photo": "5398628332_fc4e311657_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/02-0719336/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20719336/",
         "updated": "2015-08-04T20:25:50.620Z",
@@ -1344,6 +1356,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0383482",
         "sub_name": "MIAMI COUNTRY DAY SCHOOL FOUNDATION INC",
+        "photo": "5491903891_6d1e91ac96_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0383482/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30383482/",
         "updated": "2015-08-04T20:25:54.593Z",
@@ -1428,6 +1441,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0536024",
         "sub_name": "MEDICAL STUDENTS IN ACTION INC",
+        "photo": "5786966085_12031fbd72_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0536024/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30536024/",
         "updated": "2015-08-04T20:25:59.636Z",
@@ -1512,6 +1526,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0536024",
         "sub_name": "MEDICAL STUDENTS IN ACTION INC",
+        "photo": "6058581092_647d37ab4f_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0536024/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30536024/",
         "updated": "2015-08-04T20:25:59.636Z",
@@ -1596,6 +1611,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0481427",
         "sub_name": "SAN JOSE OBRERO FOUNDATION CORP",
+        "photo": "6272470480_242f9cfd87_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0481427/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30481427/",
         "updated": "2015-08-04T20:25:57.641Z",
@@ -1701,6 +1717,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0501715",
         "sub_name": "WINE & SPIRITS BROKERS ASSOCIATION",
+        "photo": "6561602655_c1ddd9e477_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0501715/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30501715/",
         "updated": "2015-08-04T20:25:58.669Z",
@@ -1806,6 +1823,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0599418",
         "sub_name": "HOGAR DE CRISTO USA INC",
+        "photo": "6831868251_55bbffdfb4_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0599418/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30599418/",
         "updated": "2015-08-04T20:26:01.528Z",
@@ -1911,6 +1929,7 @@ export const propublicaData = {
       "organization": {
         "strein": "03-0599418",
         "sub_name": "HOGAR DE CRISTO USA INC",
+        "photo": "7583988368_7d6fe77b8f_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/03-0599418/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30599418/",
         "updated": "2015-08-04T20:26:01.528Z",
@@ -1995,6 +2014,7 @@ export const propublicaData = {
       "organization": {
         "strein": "04-3340789",
         "sub_name": "NATIONAL EVANGELICAL MISSION",
+        "photo": "8332544804_2dde111e2c_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/04-3340789/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43340789/",
         "updated": "2015-08-04T20:26:03.488Z",
@@ -2079,6 +2099,7 @@ export const propublicaData = {
       "organization": {
         "strein": "04-3340789",
         "sub_name": "NATIONAL EVANGELICAL MISSION",
+        "photo": "8504353400_d3a562fb36_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/04-3340789/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43340789/",
         "updated": "2015-08-04T20:26:03.488Z",
@@ -2163,6 +2184,7 @@ export const propublicaData = {
       "organization": {
         "strein": "04-3643271",
         "sub_name": "RESCUE THE PERISHING MINISTRIES U S A INC",
+        "photo": "9275616475_a33fff50c9_z.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/04-3643271/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43643271/",
         "updated": "2015-08-04T20:26:05.331Z",
@@ -2247,6 +2269,7 @@ export const propublicaData = {
       "organization": {
         "strein": "04-3606164",
         "sub_name": "STEP MIAMI BRANCH INC",
+        "photo": "child_poverty.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/04-3606164/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43606164/",
         "updated": "2015-08-04T20:26:04.447Z",
@@ -2331,6 +2354,7 @@ export const propublicaData = {
       "organization": {
         "strein": "04-3642136",
         "sub_name": "UNION OUTREACH MINISTRY",
+        "photo": "coffee.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/04-3642136/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43642136/",
         "updated": "2015-08-04T20:26:05.331Z",
@@ -2415,6 +2439,7 @@ export const propublicaData = {
       "organization": {
         "strein": "04-3777501",
         "sub_name": "HOUSING AND ASSISTIVE TECHNOLOGY INC",
+        "photo": "o-HOMELESS-SMILING-570.jpg",
         "guidestar_url": "http://www.guidestar.org/organizations/04-3777501/.aspx",
         "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43777501/",
         "updated": "2015-08-04T20:26:09.060Z",

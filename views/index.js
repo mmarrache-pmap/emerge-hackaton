@@ -70,13 +70,13 @@
 
 	var _routes2 = _interopRequireDefault(_routes);
 
-	var _app = __webpack_require__(531);
+	var _app = __webpack_require__(532);
 
 	var _app2 = _interopRequireDefault(_app);
 
-	__webpack_require__(532);
-
 	__webpack_require__(533);
+
+	__webpack_require__(534);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28406,7 +28406,7 @@
 
 	var _donor2 = _interopRequireDefault(_donor);
 
-	var _ = __webpack_require__(530);
+	var _ = __webpack_require__(531);
 
 	var _2 = _interopRequireDefault(_);
 
@@ -28456,11 +28456,15 @@
 
 	var _Hero2 = _interopRequireDefault(_Hero);
 
+	var _Loader = __webpack_require__(529);
+
+	var _Loader2 = _interopRequireDefault(_Loader);
+
 	var _utils = __webpack_require__(517);
 
 	var _utils2 = _interopRequireDefault(_utils);
 
-	var _propublicaData = __webpack_require__(529);
+	var _propublicaData = __webpack_require__(530);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28485,23 +28489,60 @@
 	  }
 
 	  _createClass(DonorPage, [{
+	    key: 'handleBoxClick',
+	    value: function handleBoxClick(ein) {
+	      console.log(ein);
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+
 	      console.log(_propublicaData.propublicaData);
 	      var organizations = _propublicaData.propublicaData.filings;
 
 	      var orgList = organizations.map(function (item, index) {
 	        return _react2.default.createElement(
 	          'li',
-	          { key: _utils2.default.unique(), className: 'masonry-box' },
-	          _react2.default.createElement('img', { src: 'http://placehold.it/600x300', className: 'img-responsive' }),
+	          { key: _utils2.default.unique(), className: 'masonry-box',
+	            onClick: _this2.handleBoxClick.bind(_this2, item.ein) },
+	          _react2.default.createElement('img', { src: '/static/images/organizations/' + item.organization.photo, className: 'img-responsive' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'ribbon-circle masonry-box-total' },
+	            _react2.default.createElement(
+	              'span',
+	              null,
+	              item.organization.price || '25'
+	            )
+	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'masonry-box-content' },
 	            _react2.default.createElement(
+	              'div',
+	              { className: 'text-muted clearfix' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'pull-left' },
+	                item.organization.city + ', ' + item.organization.state
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'pull-right text-right' },
+	                'EIN: ',
+	                item.ein
+	              )
+	            ),
+	            _react2.default.createElement(
 	              'a',
 	              { href: '#', className: 'masonry-box-title' },
 	              item.organization.name
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'text-center' },
+	              _react2.default.createElement(_Loader2.default, { padding: 40, theme: 'dark' })
 	            )
 	          )
 	        );
@@ -28510,7 +28551,8 @@
 	      return _react2.default.createElement(
 	        _main2.default,
 	        null,
-	        _react2.default.createElement(_Hero2.default, { type: 'image', src: '/static/images/hero-donor.png' }),
+	        _react2.default.createElement(_Hero2.default, { type: 'image', src: '/static/images/hero-donor.png',
+	          title: 'Conquering homelessness is a shared responsibility' }),
 	        _react2.default.createElement(
 	          'h1',
 	          null,
@@ -46386,7 +46428,7 @@
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: '#' },
+	              { href: '/' },
 	              _react2.default.createElement('img', { src: '../static/images/logo.png' })
 	            )
 	          ),
@@ -46874,6 +46916,7 @@
 	      var _props = this.props;
 	      var type = _props.type;
 	      var src = _props.src;
+	      var title = _props.title;
 
 
 	      var styles = {
@@ -46890,7 +46933,11 @@
 	          'h1',
 	          null,
 	          'Video'
-	        ) : null
+	        ) : _react2.default.createElement(
+	          'h1',
+	          { className: 'hero-title' },
+	          title
+	        )
 	      );
 	    }
 	  }]);
@@ -46900,7 +46947,12 @@
 
 	Hero.propTypes = {
 	  type: _react2.default.PropTypes.oneOf(['image', 'video']),
-	  src: _react2.default.PropTypes.string
+	  src: _react2.default.PropTypes.string,
+	  title: _react2.default.PropTypes.string
+	};
+
+	Hero.defaultProps = {
+	  title: ''
 	};
 
 	exports.default = Hero;
@@ -46909,6 +46961,112 @@
 
 /***/ },
 /* 529 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // Dependencies.
+
+
+	var Loader = function (_React$Component) {
+	  _inherits(Loader, _React$Component);
+
+	  function Loader() {
+	    _classCallCheck(this, Loader);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Loader).apply(this, arguments));
+	  }
+
+	  _createClass(Loader, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var theme = _props.theme;
+	      var padding = _props.padding;
+	      var size = _props.size;
+
+
+	      var color = void 0;
+	      switch (theme) {
+	        case 'dark':
+	          color = 'rgba(0,0,0,.5)';
+	          break;
+	        case 'light':
+	          color = '#00FF00';
+	          break;
+	        default:
+	          color = color;
+	      }
+
+	      var styles = {
+	        base: {
+	          display: 'inline-block',
+	          textAlign: 'center',
+	          margin: padding
+	        },
+
+	        spinner: {
+	          width: size,
+	          height: size
+	        },
+
+	        circle: {
+	          backgroundColor: color
+	        }
+	      };
+
+	      return _react2.default.createElement(
+	        'div',
+	        { style: styles.base },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'spinner--loader', style: styles.spinner },
+	          _react2.default.createElement('div', { className: 'spinner--loader--circle_1', style: styles.circle }),
+	          _react2.default.createElement('div', { className: 'spinner--loader--circle_2', style: styles.circle })
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Loader;
+	}(_react2.default.Component);
+
+	Loader.propTypes = {
+	  padding: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.string, _react2.default.PropTypes.number]),
+	  size: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.string, _react2.default.PropTypes.number]),
+	  theme: _react2.default.PropTypes.string
+	};
+
+	Loader.defaultProps = {
+	  padding: 40,
+	  size: 50,
+	  theme: 'light'
+	};
+
+	exports.default = Loader;
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Loader.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+/* 530 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -47050,6 +47208,7 @@
 	    "organization": {
 	      "strein": "01-0591774",
 	      "sub_name": "WELL OF LIFE FOUNDATION",
+	      "photo": "11142797173_70e6dd5e8b_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/01-0591774/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10591774/",
 	      "updated": "2015-08-04T20:25:30.806Z",
@@ -47212,6 +47371,7 @@
 	    "organization": {
 	      "strein": "01-0591774",
 	      "sub_name": "WELL OF LIFE FOUNDATION",
+	      "photo": "11925935443_10e712996a_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/01-0591774/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10591774/",
 	      "updated": "2015-08-04T20:25:30.806Z",
@@ -47316,6 +47476,7 @@
 	    "organization": {
 	      "strein": "01-0714415",
 	      "sub_name": "NEW JERUSALEM COMMUNITY DEVELOPMENT CORPORATION",
+	      "photo": "12943041424_2df4bb8d09_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/01-0714415/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10714415/",
 	      "updated": "2015-08-04T20:25:34.474Z",
@@ -47399,6 +47560,7 @@
 	    "organization": {
 	      "strein": "01-0812234",
 	      "sub_name": "ST AGNES HOUSING CORPORATION",
+	      "photo": "12947500895_c3eedc6000_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/01-0812234/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10812234/",
 	      "updated": "2015-08-04T20:25:37.244Z",
@@ -47482,6 +47644,7 @@
 	    "organization": {
 	      "strein": "01-0812234",
 	      "sub_name": "ST AGNES HOUSING CORPORATION",
+	      "photo": "14216490509_8f3ff28240_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/01-0812234/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/10812234/",
 	      "updated": "2015-08-04T20:25:37.244Z",
@@ -47586,6 +47749,7 @@
 	    "organization": {
 	      "strein": "02-0508960",
 	      "sub_name": "EGLISE EVANGELIQUE BAPTISTE DE LUMIERE INC",
+	      "photo": "14581552271_4df580462e_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0508960/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20508960/",
 	      "updated": "2015-08-04T20:25:44.335Z",
@@ -47669,6 +47833,7 @@
 	    "organization": {
 	      "strein": "02-0546537",
 	      "sub_name": "DIASPORA VIBE CULTURAL ARTS INCUBATOR INC",
+	      "photo": "16434646941_ea2306105a_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0546537/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20546537/",
 	      "updated": "2015-08-04T20:25:45.243Z",
@@ -47773,6 +47938,7 @@
 	    "organization": {
 	      "strein": "02-0547930",
 	      "sub_name": "SECULAR ASSOCIATION TOTUS TUUS INC",
+	      "photo": "382595491_9c858a4ba9_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0547930/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20547930/",
 	      "updated": "2015-08-04T20:25:45.243Z",
@@ -47877,6 +48043,7 @@
 	    "organization": {
 	      "strein": "02-0552636",
 	      "sub_name": "GENERACION EN CONQUISTA INC",
+	      "photo": "4050523207_aca4f90345_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0552636/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20552636/",
 	      "updated": "2015-08-04T20:25:45.243Z",
@@ -47981,6 +48148,7 @@
 	    "organization": {
 	      "strein": "02-0552636",
 	      "sub_name": "GENERACION EN CONQUISTA INC",
+	      "photo": "529586900_20673195a0_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0552636/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20552636/",
 	      "updated": "2015-08-04T20:25:45.243Z",
@@ -48064,6 +48232,7 @@
 	    "organization": {
 	      "strein": "02-0729495",
 	      "sub_name": "BEZERRA DE MENEZES KARDECIAN SPIRITIST ASSOCIATION INC",
+	      "photo": "5342073430_0f63c8d3f4_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0729495/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20729495/",
 	      "updated": "2015-08-04T20:25:51.277Z",
@@ -48168,6 +48337,7 @@
 	    "organization": {
 	      "strein": "02-0719336",
 	      "sub_name": "HOPE COMMUNITY DEVELOPMENT CORPORATION",
+	      "photo": "5398628332_fc4e311657_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/02-0719336/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/20719336/",
 	      "updated": "2015-08-04T20:25:50.620Z",
@@ -48251,6 +48421,7 @@
 	    "organization": {
 	      "strein": "03-0383482",
 	      "sub_name": "MIAMI COUNTRY DAY SCHOOL FOUNDATION INC",
+	      "photo": "5491903891_6d1e91ac96_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0383482/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30383482/",
 	      "updated": "2015-08-04T20:25:54.593Z",
@@ -48334,6 +48505,7 @@
 	    "organization": {
 	      "strein": "03-0536024",
 	      "sub_name": "MEDICAL STUDENTS IN ACTION INC",
+	      "photo": "5786966085_12031fbd72_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0536024/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30536024/",
 	      "updated": "2015-08-04T20:25:59.636Z",
@@ -48417,6 +48589,7 @@
 	    "organization": {
 	      "strein": "03-0536024",
 	      "sub_name": "MEDICAL STUDENTS IN ACTION INC",
+	      "photo": "6058581092_647d37ab4f_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0536024/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30536024/",
 	      "updated": "2015-08-04T20:25:59.636Z",
@@ -48500,6 +48673,7 @@
 	    "organization": {
 	      "strein": "03-0481427",
 	      "sub_name": "SAN JOSE OBRERO FOUNDATION CORP",
+	      "photo": "6272470480_242f9cfd87_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0481427/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30481427/",
 	      "updated": "2015-08-04T20:25:57.641Z",
@@ -48604,6 +48778,7 @@
 	    "organization": {
 	      "strein": "03-0501715",
 	      "sub_name": "WINE & SPIRITS BROKERS ASSOCIATION",
+	      "photo": "6561602655_c1ddd9e477_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0501715/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30501715/",
 	      "updated": "2015-08-04T20:25:58.669Z",
@@ -48708,6 +48883,7 @@
 	    "organization": {
 	      "strein": "03-0599418",
 	      "sub_name": "HOGAR DE CRISTO USA INC",
+	      "photo": "6831868251_55bbffdfb4_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0599418/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30599418/",
 	      "updated": "2015-08-04T20:26:01.528Z",
@@ -48812,6 +48988,7 @@
 	    "organization": {
 	      "strein": "03-0599418",
 	      "sub_name": "HOGAR DE CRISTO USA INC",
+	      "photo": "7583988368_7d6fe77b8f_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/03-0599418/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/30599418/",
 	      "updated": "2015-08-04T20:26:01.528Z",
@@ -48895,6 +49072,7 @@
 	    "organization": {
 	      "strein": "04-3340789",
 	      "sub_name": "NATIONAL EVANGELICAL MISSION",
+	      "photo": "8332544804_2dde111e2c_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/04-3340789/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43340789/",
 	      "updated": "2015-08-04T20:26:03.488Z",
@@ -48978,6 +49156,7 @@
 	    "organization": {
 	      "strein": "04-3340789",
 	      "sub_name": "NATIONAL EVANGELICAL MISSION",
+	      "photo": "8504353400_d3a562fb36_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/04-3340789/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43340789/",
 	      "updated": "2015-08-04T20:26:03.488Z",
@@ -49061,6 +49240,7 @@
 	    "organization": {
 	      "strein": "04-3643271",
 	      "sub_name": "RESCUE THE PERISHING MINISTRIES U S A INC",
+	      "photo": "9275616475_a33fff50c9_z.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/04-3643271/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43643271/",
 	      "updated": "2015-08-04T20:26:05.331Z",
@@ -49144,6 +49324,7 @@
 	    "organization": {
 	      "strein": "04-3606164",
 	      "sub_name": "STEP MIAMI BRANCH INC",
+	      "photo": "child_poverty.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/04-3606164/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43606164/",
 	      "updated": "2015-08-04T20:26:04.447Z",
@@ -49227,6 +49408,7 @@
 	    "organization": {
 	      "strein": "04-3642136",
 	      "sub_name": "UNION OUTREACH MINISTRY",
+	      "photo": "coffee.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/04-3642136/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43642136/",
 	      "updated": "2015-08-04T20:26:05.331Z",
@@ -49310,6 +49492,7 @@
 	    "organization": {
 	      "strein": "04-3777501",
 	      "sub_name": "HOUSING AND ASSISTIVE TECHNOLOGY INC",
+	      "photo": "o-HOMELESS-SMILING-570.jpg",
 	      "guidestar_url": "http://www.guidestar.org/organizations/04-3777501/.aspx",
 	      "nccs_url": "http://nccsweb.urban.org/communityplatform/nccs/organization/profile/id/43777501/",
 	      "updated": "2015-08-04T20:26:09.060Z",
@@ -49360,7 +49543,7 @@
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "propublicaData.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 530 */
+/* 531 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49446,7 +49629,7 @@
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "404.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 531 */
+/* 532 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -49503,13 +49686,13 @@
 	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/Users/mmarrache/Development/emerge-hackaton/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "app.js" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 
 /***/ },
-/* 532 */
+/* 533 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 533 */
+/* 534 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin

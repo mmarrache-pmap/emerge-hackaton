@@ -8,7 +8,7 @@ class Header extends React.Component {
       <Navbar fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#">
+            <a href="/">
               <img src="../static/images/logo.png" />
             </a>
           </Navbar.Brand>
