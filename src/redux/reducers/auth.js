@@ -4,10 +4,10 @@ import {
   AUTH_FETCH_FAILURE
 } from '../constants/auth-constants';
 
-function dmAuthReducer(state = {
+function AuthReducer(state = {
   isFetching: true,
   didInvalidate: false,
-  items: []
+  auth: ''
 }, action) {
   switch (action.type) {
   case AUTH_FETCH_REQUEST:
@@ -21,7 +21,7 @@ function dmAuthReducer(state = {
       ...state,
       isFetching: false,
       didInvalidate: false,
-      items: action.auth,
+      auth: action.auth,
       lastUpdated: action.receivedAt
     };
   case AUTH_FETCH_FAILURE:
@@ -36,4 +36,4 @@ function dmAuthReducer(state = {
 }
 
 
-export default dmAuthReducer;
+export default AuthReducer;
