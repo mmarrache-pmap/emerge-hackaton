@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router';
 import Main from '../layouts/main';
-import Hero from '../components/Hero';
+import DetailHero from '../components/DetailHero';
 import { Row, Col } from 'react-bootstrap';
 import { DetailView, LoginView, CheckoutView } from './detailViews';
 
@@ -50,22 +51,7 @@ class DetailPage extends React.Component {
 
     return (
       <Main>
-        <Hero type="image" src={`/static/images/organizations/${currentOrg.organization.photo}`} overlay
-              title={currentOrg.organization.name} />
-
-        <div className="content-wrapper fullwidth bg-grey">
-          <Row>
-            <Col sm={6} md={5} lg={4}>
-              <p>BENEFICIARY</p>
-              <h3>{currentOrg.organization.name}</h3>
-            </Col>
-            <Col sm={4} smOffset={2} md={4} mdOffset={3} lg={4} lgOffset={4}>
-              <br/>
-              {currentOrg.organization.address}<br />
-              {`${currentOrg.organization.city}, ${currentOrg.organization.state} ${currentOrg.organization.zipcode}`}
-            </Col>
-          </Row>
-        </div>
+        <DetailHero data={currentOrg.organization} />
 
         <div className="content-wrapper">
           <Row>
@@ -89,6 +75,7 @@ class DetailPage extends React.Component {
             </Col>
 
             <Col sm={6} md={5} mdOffset={2}>
+              <Link to={`/confirmation/${paramId}`}>Confirm</Link>
               {rightPanel}
             </Col>
 

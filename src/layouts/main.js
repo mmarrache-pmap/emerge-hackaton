@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import utils from '../utils';
 
