@@ -29,18 +29,18 @@ app.use(require('./accounts'));
 /**
  * API Endpoints
  */
- let userObj = {
-   username: 'Cyrus',
-   password: 'Batman'
- }
+ // let userObj = {
+ //   username: 'Cyrus',
+ //   password: 'Batman'
+ // }
 
  // Target
  app.get('/api/0/hope', api.getHope);
 
 app.get('/', function (req, res) {
+    if(req.session.user) console.log(req.session.user);
     res.render('index', {
-
-      user: JSON.stringify(userObj || null )
+      user: JSON.stringify(req.session.user || null )
     });
 });
 

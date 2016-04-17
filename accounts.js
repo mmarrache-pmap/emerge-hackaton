@@ -86,14 +86,14 @@ router.use(require('express-session')({
     secret: 'asldkjf;alskdfj;alsdkjfa;lsdkfja;lskdfja;lskdjfa;lsdkfja;lsdkfj'
 }));
 
-router.post('/api/signup', function (req, res) {
+router.post('/api/signup', (req, res) => {
     var username = req.body.username,
         password = req.body.password;
 
     if (!username || !password)
         return res.json({ signedIn: false, message: 'no username or password' });
 
-    users.child(username).once('value', function (snapshot) {
+    users.child(username).once('value', (snapshot) => {
         if (snapshot.exists())
             return res.json({ signedIn: false, message: 'username already in use' });
 
@@ -112,7 +112,7 @@ router.post('/api/signup', function (req, res) {
     });
 });
 
-router.post('/api/signin', function (req, res) {
+router.post('/api/signin', (req, res) => {
     let username = req.body.username,
         password = req.body.password;
 
@@ -133,13 +133,20 @@ router.post('/api/signin', function (req, res) {
     });
 });
 
-router.post('/api/signout', function (req, res) {
+router.post('/api/signout', (req, res) => {
     delete req.session.user;
     res.json({
         signedIn: false,
         message: 'You have been signed out'
     });
 });
+
+ // app.get('/api/0/hope', api.getHope);
+ router.get('/api/items/hope', (req, res) => {
+    let items = firebase.once('value').then(data => {
+      return data.val();
+    });
+ });
 
 // req.post({
 //   uri: "https://sandbox.api.visa.com/paai/generalattinq/v1/cardattributes/generalinquiry",
