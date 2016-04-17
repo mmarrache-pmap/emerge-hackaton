@@ -23,6 +23,7 @@ class Layout extends React.Component {
             </Col>
           </Row>
         </Grid>
+        <Footer />
       </div>
     );
   }
