@@ -11,19 +11,23 @@ body{
   font-size: $font-size;
   color: $text-color;
   overflow-x: hidden;
+  padding-top: 114px;
   background-color: $body-bg;
 }
 
 html,body{
   height: 100%;
 }
+*, *:before, *:after {box-sizing:  border-box !important;}
 *:focus{
   outline: 0 !important;
 }
 a{
+  color: $link-color;
   cursor: pointer;
 }
 a:hover, a:focus{
+  color: darken($link-color, 10%);
   text-decoration: none;
 }
 .block{
@@ -110,15 +114,22 @@ mark{
   text-overflow: ellipsis;
 }
 
-.btn{
-  margin-left: 6px;
-  margin-right: 6px;
-}
-.btn-xs,
-.btn-group-xs > .btn{
-  font-size: $font-size;
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.dropdown-menu{
-  top: 80%;
+.hero {
+  margin: -50px -15px 0;
+  min-height: 400px;
 }

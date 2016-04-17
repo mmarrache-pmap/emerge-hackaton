@@ -1,17 +1,10 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
 
 class App extends React.Component {
   render() {
     return (
 			<div>
-        <Grid>
-          <Row>
-            <Col xs={12}>
-              {this.props.children}
-            </Col>
-          </Row>
-        </Grid>
+        {this.props.children}
 			</div>
     );
   }
