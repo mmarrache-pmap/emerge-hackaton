@@ -9,25 +9,40 @@
     position: relative;
     display: inline-block;
     margin: .5em;
-    padding: 0;
+    padding: 0 !important;
     width:98%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+    cursor: pointer;
 
     &.open{
       width: 200%;
     }
 
-    padding: 10px;
-    background-color: #FFFFFF;
-    border: 1px solid $border-color;
+    .masonry-box-image-link{
+      padding: 0 !important;
+
+      img{
+        max-width: 100%;
+      }
+    }
 
     .masonry-box-content{
-      padding: 10px 25px 0;
+      padding: 15px 25px 20px;
 
       .masonry-box-title,
       a.masonry-box-title{
         font-size: 14px;
         font-weight: 400;
         padding: 0 0 10px;
+        cursor: pointer;
+      }
+
+      .masonry-box-list{
+        margin-top: 10px;
       }
     }
 

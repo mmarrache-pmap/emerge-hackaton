@@ -26,9 +26,10 @@ class DonorPage extends React.Component {
 
     const orgList = organizations.map( (item, index) => {
       return (
-        <li key={utils.unique()} className="masonry-box"
-          onClick={this.handleBoxClick.bind(this, item.ein)}>
-          <img src={`/static/images/organizations/${item.organization.photo}`} className="img-responsive" />
+        <li key={utils.unique()} className="masonry-box">
+          <a href={`/detail/${item.ein}`} className="masonry-box-image-link">
+            <img src={`/static/images/organizations/${item.organization.photo}`} className="img-responsive" />
+          </a>
           <div className="ribbon-circle masonry-box-total">
             <span>{item.organization.price || '25'}</span>
           </div>
@@ -41,12 +42,35 @@ class DonorPage extends React.Component {
                 EIN: {item.ein}
               </div>
             </div>
-            <a href="#" className="masonry-box-title">
+            <a href={`/detail/${item.ein}`} className="masonry-box-title">
               {item.organization.name}
             </a>
+
+            {/*
             <div className="text-center">
               <Loader padding={40} theme="dark" />
             </div>
+            */}
+
+            <div className="masonry-box-list">
+              <span className="text-muted">Goods needed:</span>
+              <ul className="square-bullets">
+                <li>18-pack White Washcloths</li>
+                <li>Microfiber Pillow, 2 Pack</li>
+                <li>Adult Sleeping bag</li>
+              </ul>
+            </div>
+
+            <div>
+              <span className="text-muted">
+                One-Click Donation by
+                {' '}
+                <img src="/static/images/visa-direct-small-grey.png"
+                     style={{ width: 'auto', height: 10, verticalAlign: 'middle' }} />
+              </span>
+
+            </div>
+
           </div>
         </li>
       );

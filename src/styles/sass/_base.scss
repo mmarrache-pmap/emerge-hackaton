@@ -118,6 +118,27 @@ mark{
   text-overflow: ellipsis;
 }
 
+.square-bullets{
+  list-style: none;
+  margin: 4px 0 20px -20px;
+
+  li{
+    position: relative;
+    padding: 4px 0 0;
+
+    &:before{
+      display: block;
+      content: '';
+      position: absolute;
+      top: 7px;
+      left: -16px;
+      width: 8px;
+      height: 8px;
+      background: lighten($muted-color, 20%);
+    }
+  }
+}
+
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
