@@ -2,7 +2,7 @@ import {
   PROPUBLICA_FETCH_REQUEST,
   PROPUBLICA_FETCH_SUCCESS,
   PROPUBLICA_FETCH_FAILURE
-} from '../constants/async-constants';
+} from '../constants/propublica-constants';
 
 function propublicaReducer(state = {
   isFetching: true,

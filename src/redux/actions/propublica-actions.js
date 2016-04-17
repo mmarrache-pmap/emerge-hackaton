@@ -30,15 +30,9 @@ export function fetchPropublicaFailure(paramUrl, error) {
 }
 
 export function fetchPropublica(paramUrl) {
-  const url = `https://projects.propublica.org/nonprofits/api/v1/search.json?q=${paramUrl}&city=Miami&state%5Bid%5D=FL`;
+  const url = `http://localhost:8081/api/0/hope`;
   const sInit = {
-    method: 'GET',
-    headers: {
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-      'Upgrade-Insecure-Requests': '1',
-      'Host': 'projects.propublica.org',
-      'Access-Control-Allow-Origin': 'http://projects.propublica.org'
-    }
+    method: 'GET'
   };
 
   return (dispatch) => {
@@ -53,6 +47,7 @@ export function fetchPropublica(paramUrl) {
         return dispatch(fetchPropublicaSuccess(paramUrl, json));
       })
       .catch(error => {
+        console.log('ERROR:', json.ErrorMessage);
         return dispatch(fetchPropublicaFailure(paramUrl, error));
       });
   };

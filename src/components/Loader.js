@@ -19,12 +19,12 @@ class Loader extends React.Component {
 
     const styles = {
       base: {
-        display: 'inline-block',
         textAlign: 'center',
         margin: padding
       },
 
       spinner: {
+        display: 'inline-block',
         width: size,
         height: size,
       },

@@ -13,13 +13,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/sass/styles.scss';
 
 // Redux actions.
-// import { fetchPropublica } from './redux/actions/propublica-actions';
+import { fetchPropublica } from './redux/actions/propublica-actions';
 
 // Default api calls.
-// store.dispatch(fetchPropublica(''));
+store.dispatch(fetchPropublica('hope'));
 
-// Needed for onTouchTap - Can go away when react 1.0 release
-// Check this repo: https://github.com/zilverline/react-tap-event-plugin
 injectTapEventPlugin();
 
 // Routes template.
